@@ -5,9 +5,16 @@
 #include <string.h>
 #include <sys/stat.h>
 #include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/msg.h>
 
 #define FIFO_PATH "/tmp/fifo_monitor_1"
 #define FIFO_PATH2 "/tmp/fifo_monitor_2"
+
+struct msgbuf {
+    long mtype;
+    char mtext[100];
+};
 
 int main() {
     int fd1, fd2;
@@ -43,11 +50,40 @@ int main() {
         buffer[bytes_leidos] = '\0';
         printf("<- Secreto 2 recibido: %s\n", buffer);
 
-        // 5. Enviar en eco el secreto 2 por el fifo 2 inmediatamente
         write(fd2, buffer, bytes_leidos);
         printf("-> Secreto 2 devuelto en eco por %s.\n", FIFO_PATH2);
     }
 
+    printf("\n[PAUSA] pulsa ENTER\n");
+    getchar();
+
+    key_t clave_cola = 0x25203218L;
+    int msgid;
+    struct msgbuf mensaje;
+    long secreto3;
+    int secreto4;
+
+    msgid = msgget(clave_cola, 0666);
+
+    secreto3 = mensaje.mtype;
+
+    sscanf(mensaje.mtext, "<%d>", &secreto4);
+
+    printf("Secreto 3 capturado correctamente: %ld\n", secreto3);
+    printf("Secreto 4 capturado correctamente: %d\n", secreto4);
+
+    printf("\n[PAUSA] Pulsa ENTER.\n");
+    getchar();
+
+
+    msgid = msgget(clave_cola, IPC_CREAT | 0666);
+
+    struct msgbuf mensaje_envio;
+    mensaje_envio.mtype = 1;     
+    sprintf(mensaje_envio.mtext, "<%ld><%d>", secreto3, secreto4);
+
+    printf("\nMensaje enviado.\n");
+    
     close(fd1);
     close(fd2);
 
