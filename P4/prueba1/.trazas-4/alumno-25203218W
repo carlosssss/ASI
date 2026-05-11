@@ -1,0 +1,2241 @@
+1778495810: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778495810: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778495810: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778495810: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778495810: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778495810: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778495810: 
+La máquina está ya identificada.
+1778495810: RX: <OK Accepted>
+1778495812: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778495812: RX: <NEW>
+1778495812: 
+***************************************************
+El usuario no tiene un password público registrado.
+Por favor, confirme el password para darlo de alta.
+[5mEl password debe recordarlo para futuras sesiones.[0m
+Utilice una secuencia de caracteres personal privados.
+En el servidor se guardará una versión encriptada.
+Si no está de acuerdo con el password que ha utilizado
+interrumpa el proceso y comience de nuevo el registro.
+Posteriormente será más complicado modificarlo. Tendrá.
+que ponerse en contacto con el administrador:
+                 armando.ferro@ehu.eus
+***************************************************
+1778495815: TX: <CREATEPWD q9cTc6l6lddTBG>
+1778495815: [5m
+LOGIN: Registrado password público <q9cTc6l6lddTBG>.[0m
+1778495815: RX: <DONE>
+1778495815: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778495815: TX: <UUID XH8zKQFQKcd3PRTk>
+1778495815: RX: <REGISTERED>
+1778495830: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778495830: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778495830: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778495830: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778495830: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778495830: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778495830: 
+La máquina está ya identificada.
+1778495830: RX: <OK Accepted>
+1778495830: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778495830: RX: <OK>
+1778495830: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778495830: TX: <UUID XH8zKQFQKcd3PRTk>
+1778495830: RX: <REGISTERED>
+1778495830: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778495830: COMMAND <cp ./client.? .trazas-4>
+1778495830: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778495830: COMMAND <which pftp 2>&1 > /dev/null>
+1778495830: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-10h37\n" | ftp 2>&1 > /dev/null>
+1778495830: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778496263: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778496263: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778496263: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778496263: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778496263: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778496263: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778496263: 
+La máquina está ya identificada.
+1778496263: RX: <OK Accepted>
+1778496263: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778496263: RX: <OK>
+1778496263: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778496263: TX: <UUID XH8zKQFQKcd3PRTk>
+1778496263: RX: <REGISTERED>
+1778496263: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778496263: COMMAND <cp ./client.? .trazas-4>
+1778496263: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778496263: COMMAND <which pftp 2>&1 > /dev/null>
+1778496263: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-10h44\n" | ftp 2>&1 > /dev/null>
+1778496263: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778496475: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778496475: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778496479: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778496479: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <984>.
+********************************************[0m
+1778496479: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778496479: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778496504: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778496504: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778496504: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778496504: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778496761: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778496761: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778496761: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778496761: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778496761: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778496761: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778496761: 
+La máquina está ya identificada.
+1778496761: RX: <OK Accepted>
+1778496761: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778496761: RX: <OK>
+1778496761: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778496761: TX: <UUID XH8zKQFQKcd3PRTk>
+1778496761: RX: <REGISTERED>
+1778496761: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778496761: COMMAND <cp ./client.? .trazas-4>
+1778496761: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778496761: COMMAND <which pftp 2>&1 > /dev/null>
+1778496761: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-10h52\n" | ftp 2>&1 > /dev/null>
+1778496761: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778496763: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778496763: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778496766: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778496766: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778496766: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778496766: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778496773: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778496773: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (2).
+
+-------------------------------------------------------
+1778496773: 
+-------------------------------------------------------
+<== Mensaje [ s��b] (0 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778496773: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1778496773: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778496931: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778496931: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778496931: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778496931: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778496931: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778496931: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778496931: 
+La máquina está ya identificada.
+1778496931: RX: <OK Accepted>
+1778496931: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778496931: RX: <OK>
+1778496931: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778496931: TX: <UUID XH8zKQFQKcd3PRTk>
+1778496931: RX: <REGISTERED>
+1778496931: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778496931: COMMAND <cp ./client.? .trazas-4>
+1778496931: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778496931: COMMAND <which pftp 2>&1 > /dev/null>
+1778496931: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-10h55\n" | ftp 2>&1 > /dev/null>
+1778496932: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778496933: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778496933: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778496936: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778496936: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778496936: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778496936: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778496969: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778496969: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778496969: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778496969: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778496969: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778496969: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778496969: 
+La máquina está ya identificada.
+1778496969: RX: <OK Accepted>
+1778496969: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778496969: RX: <OK>
+1778496969: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778496969: TX: <UUID XH8zKQFQKcd3PRTk>
+1778496969: RX: <REGISTERED>
+1778496969: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778496969: COMMAND <cp ./client.? .trazas-4>
+1778496969: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778496969: COMMAND <which pftp 2>&1 > /dev/null>
+1778496969: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-10h56\n" | ftp 2>&1 > /dev/null>
+1778496969: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778497002: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778497002: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778497002: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778497002: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778497002: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778497002: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778497002: 
+La máquina está ya identificada.
+1778497002: RX: <OK Accepted>
+1778497002: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778497002: RX: <OK>
+1778497002: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778497002: TX: <UUID XH8zKQFQKcd3PRTk>
+1778497002: RX: <REGISTERED>
+1778497002: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778497002: COMMAND <cp ./client.? .trazas-4>
+1778497002: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778497002: COMMAND <which pftp 2>&1 > /dev/null>
+1778497002: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-10h56\n" | ftp 2>&1 > /dev/null>
+1778497002: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778497011: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778497011: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778497014: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778497014: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778497014: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778497014: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497166: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778497166: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778497166: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778497166: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778497166: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778497166: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778497166: 
+La máquina está ya identificada.
+1778497166: RX: <OK Accepted>
+1778497166: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778497166: RX: <OK>
+1778497166: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778497166: TX: <UUID XH8zKQFQKcd3PRTk>
+1778497166: RX: <REGISTERED>
+1778497166: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778497166: COMMAND <cp ./client.? .trazas-4>
+1778497166: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778497166: COMMAND <which pftp 2>&1 > /dev/null>
+1778497166: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-10h59\n" | ftp 2>&1 > /dev/null>
+1778497166: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778497167: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778497167: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778497170: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778497170: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778497170: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778497170: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497178: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778497178: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (2).
+
+-------------------------------------------------------
+1778497208: 
+-------------------------------------------------------
+<== Mensaje [ ���Zc] (-1 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778497208: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1778497208: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497225: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778497225: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778497225: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778497225: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497230: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778497230: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778497230: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778497230: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497237: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778497237: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778497237: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778497237: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778497237: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778497237: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778497237: 
+La máquina está ya identificada.
+1778497237: RX: <OK Accepted>
+1778497237: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778497237: RX: <OK>
+1778497237: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778497237: TX: <UUID XH8zKQFQKcd3PRTk>
+1778497237: RX: <REGISTERED>
+1778497237: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778497237: COMMAND <cp ./client.? .trazas-4>
+1778497237: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778497237: COMMAND <which pftp 2>&1 > /dev/null>
+1778497237: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-11h00\n" | ftp 2>&1 > /dev/null>
+1778497238: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778497300: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778497300: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778497300: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778497300: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778497300: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778497300: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778497300: 
+La máquina está ya identificada.
+1778497300: RX: <OK Accepted>
+1778497300: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778497300: RX: <OK>
+1778497300: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778497300: TX: <UUID XH8zKQFQKcd3PRTk>
+1778497300: RX: <REGISTERED>
+1778497300: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778497300: COMMAND <cp ./client.? .trazas-4>
+1778497300: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778497300: COMMAND <which pftp 2>&1 > /dev/null>
+1778497300: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-11h01\n" | ftp 2>&1 > /dev/null>
+1778497300: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778497301: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778497301: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778497305: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778497305: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778497305: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778497305: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497367: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778497367: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778497367: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778497367: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778497367: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778497367: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778497367: 
+La máquina está ya identificada.
+1778497367: RX: <OK Accepted>
+1778497367: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778497367: RX: <OK>
+1778497367: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778497367: TX: <UUID XH8zKQFQKcd3PRTk>
+1778497367: RX: <REGISTERED>
+1778497367: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778497367: COMMAND <cp ./client.? .trazas-4>
+1778497367: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778497367: COMMAND <which pftp 2>&1 > /dev/null>
+1778497367: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-11h02\n" | ftp 2>&1 > /dev/null>
+1778497367: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778497389: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778497389: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778497389: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778497389: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778497389: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778497389: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778497389: 
+La máquina está ya identificada.
+1778497389: RX: <OK Accepted>
+1778497389: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778497389: RX: <OK>
+1778497389: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778497389: TX: <UUID XH8zKQFQKcd3PRTk>
+1778497389: RX: <REGISTERED>
+1778497389: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778497389: COMMAND <cp ./client.? .trazas-4>
+1778497389: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778497389: COMMAND <which pftp 2>&1 > /dev/null>
+1778497389: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-11h03\n" | ftp 2>&1 > /dev/null>
+1778497389: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778497398: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778497398: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778497428: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778497428: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497433: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778497433: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778497435: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778497435: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778497435: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778497435: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497439: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778497439: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (2).
+
+-------------------------------------------------------
+1778497440: 
+-------------------------------------------------------
+<== Mensaje [<453>Z] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778497440: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <453>.
+********************************************[0m
+1778497440: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778497440: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (3).
+
+-------------------------------------------------------
+1778497440: 
+-------------------------------------------------------
+<== Mensaje [<294>] (0 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778497440: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1778497440: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497556: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778497556: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778497556: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778497556: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778497556: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778497556: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778497556: 
+La máquina está ya identificada.
+1778497556: RX: <OK Accepted>
+1778497556: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778497556: RX: <OK>
+1778497556: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778497556: TX: <UUID XH8zKQFQKcd3PRTk>
+1778497557: RX: <REGISTERED>
+1778497557: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778497557: COMMAND <cp ./client.? .trazas-4>
+1778497557: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778497557: COMMAND <which pftp 2>&1 > /dev/null>
+1778497557: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-11h05\n" | ftp 2>&1 > /dev/null>
+1778497557: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778497562: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778497562: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778497564: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778497564: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778497564: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778497564: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497567: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778497567: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (2).
+
+-------------------------------------------------------
+1778497569: 
+-------------------------------------------------------
+<== Mensaje [<453>d] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778497569: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <453>.
+********************************************[0m
+1778497569: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778497569: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (3).
+
+-------------------------------------------------------
+1778497569: 
+-------------------------------------------------------
+<== Mensaje [<294>] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778497569: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <294>.
+********************************************[0m
+1778497569: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1778497569: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778497576: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778497576: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3001
+
+-------------------------------------------------------
+1778497576: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1778497576: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778498025: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778498025: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778498025: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778498025: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778498025: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778498025: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778498025: 
+La máquina está ya identificada.
+1778498025: RX: <OK Accepted>
+1778498025: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778498025: RX: <OK>
+1778498025: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778498025: TX: <UUID XH8zKQFQKcd3PRTk>
+1778498025: RX: <REGISTERED>
+1778498025: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778498025: COMMAND <cp ./client.? .trazas-4>
+1778498025: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778498025: COMMAND <which pftp 2>&1 > /dev/null>
+1778498025: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-11h13\n" | ftp 2>&1 > /dev/null>
+1778498026: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778498212: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778498212: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3001
+
+-------------------------------------------------------
+1778498212: 
+-------------------------------------------------------
+==> Conexión correcta en  127.0.0.1:3001
+
+-------------------------------------------------------
+1778498212: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <707>.
+********************************************[0m
+1778498212: 
+*************************************************
+:ok> CONTEXTO del ejercicio 4 preparado.
+*************************************************
+1778498212: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778498213: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778498490: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1778498490: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <707>.
+********************************************[0m
+1778498490: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778498490: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (5).
+
+-------------------------------------------------------
+1778498490: 
+-------------------------------------------------------
+<== Mensaje [<636>] (0 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778498490: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1778498490: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778498647: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778498647: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778498647: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778498647: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778498647: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778498647: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778498647: 
+La máquina está ya identificada.
+1778498647: RX: <OK Accepted>
+1778498647: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778498647: RX: <OK>
+1778498647: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778498647: TX: <UUID XH8zKQFQKcd3PRTk>
+1778498647: RX: <REGISTERED>
+1778498647: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778498647: COMMAND <cp ./client.? .trazas-4>
+1778498647: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778498647: COMMAND <which pftp 2>&1 > /dev/null>
+1778498647: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-11h24\n" | ftp 2>&1 > /dev/null>
+1778498647: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778498955: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778498955: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778498955: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778498955: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778498955: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778498955: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778498955: 
+La máquina está ya identificada.
+1778498955: RX: <OK Accepted>
+1778498955: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778498955: RX: <OK>
+1778498955: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778498955: TX: <UUID XH8zKQFQKcd3PRTk>
+1778498955: RX: <REGISTERED>
+1778498955: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778498955: COMMAND <cp ./client.? .trazas-4>
+1778498955: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778498955: COMMAND <which pftp 2>&1 > /dev/null>
+1778498955: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-11h29\n" | ftp 2>&1 > /dev/null>
+1778498955: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778498987: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778498987: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778498987: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778498987: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778498987: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778498987: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778498987: 
+La máquina está ya identificada.
+1778498987: RX: <OK Accepted>
+1778498987: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778498987: RX: <OK>
+1778498987: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778498987: TX: <UUID XH8zKQFQKcd3PRTk>
+1778498987: RX: <REGISTERED>
+1778498987: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778498987: COMMAND <cp ./client.? .trazas-4>
+1778498987: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778498987: COMMAND <which pftp 2>&1 > /dev/null>
+1778498987: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-11h29\n" | ftp 2>&1 > /dev/null>
+1778498987: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778498989: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 6.
+
+*************************************************
+
+
+1778498989: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (6).
+
+-------------------------------------------------------
+1778498990: 
+-------------------------------------------------------
+<== Mensaje [HOLA!] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778498990: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <745>.
+********************************************[0m
+1778498990: 
+*************************************************
+:ok> CONTEXTO del ejercicio 6 preparado.
+*************************************************
+1778498990: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778499000: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 7.
+
+*************************************************
+
+
+1778499000: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778499000: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (7).
+
+-------------------------------------------------------
+1778499030: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 7.
+
+*************************************************[0m
+1778499030: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778499134: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 7.
+
+*************************************************
+
+
+1778499134: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778499134: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (7).
+
+-------------------------------------------------------
+1778499164: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 7.
+
+*************************************************[0m
+1778499164: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778499216: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778499216: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778499216: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778499216: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778499216: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778499216: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778499216: 
+La máquina está ya identificada.
+1778499216: RX: <OK Accepted>
+1778499216: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778499216: RX: <OK>
+1778499216: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778499216: TX: <UUID XH8zKQFQKcd3PRTk>
+1778499216: RX: <REGISTERED>
+1778499216: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778499216: COMMAND <cp ./client.? .trazas-4>
+1778499216: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778499216: COMMAND <which pftp 2>&1 > /dev/null>
+1778499216: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-11h33\n" | ftp 2>&1 > /dev/null>
+1778499217: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778499218: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 7.
+
+*************************************************
+
+
+1778499218: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778499218: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (7).
+
+-------------------------------------------------------
+1778499218: 
+-------------------------------------------------------
+<== Mensaje [<258>] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778499218: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <258>.
+********************************************[0m
+1778499218: 
+*************************************************
+:ok> CONTEXTO del ejercicio 7 preparado.
+*************************************************
+1778499218: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778524140: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778524140: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778524140: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778524140: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778524140: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778524140: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778524140: 
+La máquina está ya identificada.
+1778524140: RX: <OK Accepted>
+1778524143: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778524143: RX: <OK>
+1778524143: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778524143: TX: <UUID XH8zKQFQKcd3PRTk>
+1778524143: RX: <REGISTERED>
+1778524143: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778524143: COMMAND <cp ./client.? .trazas-4>
+1778524143: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778524143: COMMAND <which pftp 2>&1 > /dev/null>
+1778524143: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-18h29\n" | ftp 2>&1 > /dev/null>
+1778524144: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778524419: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778524419: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778524422: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778524422: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <984>.
+********************************************[0m
+1778524422: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778524422: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524426: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778524426: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524426: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778524426: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524434: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778524434: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (2).
+
+-------------------------------------------------------
+1778524435: 
+-------------------------------------------------------
+<== Mensaje [<453>X] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524435: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <453>.
+********************************************[0m
+1778524435: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524435: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (3).
+
+-------------------------------------------------------
+1778524435: 
+-------------------------------------------------------
+<== Mensaje [<294>] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524435: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <294>.
+********************************************[0m
+1778524435: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1778524435: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524441: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778524441: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3001
+
+-------------------------------------------------------
+1778524441: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1778524441: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524448: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778524448: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3001
+
+-------------------------------------------------------
+1778524448: 
+-------------------------------------------------------
+==> Conexión correcta en  127.0.0.1:3001
+
+-------------------------------------------------------
+1778524448: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <707>.
+********************************************[0m
+1778524448: 
+*************************************************
+:ok> CONTEXTO del ejercicio 4 preparado.
+*************************************************
+1778524448: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524463: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1778524463: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <707>.
+********************************************[0m
+1778524463: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524463: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (5).
+
+-------------------------------------------------------
+1778524463: 
+-------------------------------------------------------
+<== Mensaje [<636>] (0 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524463: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1778524463: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524464: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524474: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778524474: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <707>.
+********************************************[0m
+1778524474: 
+*************************************************
+:ok> CONTEXTO del ejercicio 4 preparado.
+*************************************************
+1778524474: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524475: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524480: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778524480: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778524480: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778524480: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778524480: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778524480: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778524480: 
+La máquina está ya identificada.
+1778524480: RX: <OK Accepted>
+1778524480: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778524480: RX: <OK>
+1778524480: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778524480: TX: <UUID XH8zKQFQKcd3PRTk>
+1778524480: RX: <REGISTERED>
+1778524480: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778524480: COMMAND <cp ./client.? .trazas-4>
+1778524480: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778524480: COMMAND <which pftp 2>&1 > /dev/null>
+1778524480: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-18h34\n" | ftp 2>&1 > /dev/null>
+1778524480: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778524487: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778524487: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3001
+
+-------------------------------------------------------
+1778524487: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1778524487: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524489: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1778524489: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3001
+
+-------------------------------------------------------
+1778524489: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1778524489: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524500: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778524500: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778524500: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778524500: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <984>.
+********************************************[0m
+1778524500: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778524500: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524501: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524503: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778524503: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524503: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778524503: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524509: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778524509: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524509: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778524509: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524511: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778524511: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (2).
+
+-------------------------------------------------------
+1778524512: 
+-------------------------------------------------------
+<== Mensaje [<453><453>���V�ದxq`] (10 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524512: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <453>.
+********************************************[0m
+1778524512: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524512: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (3).
+
+-------------------------------------------------------
+1778524512: 
+-------------------------------------------------------
+<== Mensaje [<294>] (0 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524512: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1778524512: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524519: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778524519: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (2).
+
+-------------------------------------------------------
+1778524519: 
+-------------------------------------------------------
+<== Mensaje [ ��xq`] (0 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524519: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1778524519: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524535: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778524535: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778524535: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778524535: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778524535: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778524535: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778524535: 
+La máquina está ya identificada.
+1778524535: RX: <OK Accepted>
+1778524535: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778524535: RX: <OK>
+1778524535: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778524535: TX: <UUID XH8zKQFQKcd3PRTk>
+1778524535: RX: <REGISTERED>
+1778524535: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778524535: COMMAND <cp ./client.? .trazas-4>
+1778524536: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778524536: COMMAND <which pftp 2>&1 > /dev/null>
+1778524536: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-18h35\n" | ftp 2>&1 > /dev/null>
+1778524536: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778524541: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778524541: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778524543: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778524543: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <984>.
+********************************************[0m
+1778524543: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778524543: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524546: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778524546: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524546: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778524546: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524550: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778524550: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (2).
+
+-------------------------------------------------------
+1778524551: 
+-------------------------------------------------------
+<== Mensaje [<453>V] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524551: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <453>.
+********************************************[0m
+1778524551: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524551: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (3).
+
+-------------------------------------------------------
+1778524551: 
+-------------------------------------------------------
+<== Mensaje [<294>] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524551: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <294>.
+********************************************[0m
+1778524551: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1778524551: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524555: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778524555: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3001
+
+-------------------------------------------------------
+1778524555: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1778524555: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524560: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778524560: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3001
+
+-------------------------------------------------------
+1778524560: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 4.
+
+*************************************************[0m
+1778524560: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524573: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778524573: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3001
+
+-------------------------------------------------------
+1778524573: 
+-------------------------------------------------------
+==> Conexión correcta en  127.0.0.1:3001
+
+-------------------------------------------------------
+1778524573: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <707>.
+********************************************[0m
+1778524573: 
+*************************************************
+:ok> CONTEXTO del ejercicio 4 preparado.
+*************************************************
+1778524573: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524580: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 6.
+
+*************************************************
+
+
+1778524580: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (6).
+
+-------------------------------------------------------
+1778524584: 
+-------------------------------------------------------
+<== Mensaje [HOLA!] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524584: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <745>.
+********************************************[0m
+1778524584: 
+*************************************************
+:ok> CONTEXTO del ejercicio 6 preparado.
+*************************************************
+1778524584: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524587: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 7.
+
+*************************************************
+
+
+1778524587: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524587: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (7).
+
+-------------------------------------------------------
+1778524617: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 7.
+
+*************************************************[0m
+1778524617: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524618: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524623: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 7.
+
+*************************************************
+
+
+1778524623: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524623: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (7).
+
+-------------------------------------------------------
+1778524623: 
+-------------------------------------------------------
+<== Mensaje [<258>] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524623: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <258>.
+********************************************[0m
+1778524623: 
+*************************************************
+:ok> CONTEXTO del ejercicio 7 preparado.
+*************************************************
+1778524623: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524631: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1778524631: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <707>.
+********************************************[0m
+1778524631: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524631: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (5).
+
+-------------------------------------------------------
+1778524631: 
+-------------------------------------------------------
+<== Mensaje [<636>] (0 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524631: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 5.
+
+*************************************************[0m
+1778524631: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524637: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778524637: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <707>.
+********************************************[0m
+1778524637: 
+*************************************************
+:ok> CONTEXTO del ejercicio 4 preparado.
+*************************************************
+1778524637: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524648: COMMAND <cp ./monitor4 /tmp/.monitor4>
+1778524648: COMMAND <cp -f /tmp/.monitor4 ./monitor4>
+1778524648: COMMAND <uname -a >> .trazas-4/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778524648: COMMAND <ifconfig 2>&1 >> .trazas-4/alumno-25203218W>
+1778524648: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-4/alumno-25203218W>
+MACHINE-ID: 1778524648: COMMAND <cat /etc/machine-id >> .trazas-4/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778524648: 
+La máquina está ya identificada.
+1778524648: RX: <OK Accepted>
+1778524648: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778524648: RX: <OK>
+1778524648: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778524648: TX: <UUID XH8zKQFQKcd3PRTk>
+1778524648: RX: <REGISTERED>
+1778524648: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778524648: COMMAND <cp ./client.? .trazas-4>
+1778524648: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778524648: COMMAND <which pftp 2>&1 > /dev/null>
+1778524648: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-18h37\n" | ftp 2>&1 > /dev/null>
+1778524648: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>
+1778524660: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778524660: 
+-------------------------------------------------------
+==> Esperando (30 seg) la conexión TCP (Puerto: 3000) en el proceso monitor.
+
+-------------------------------------------------------
+1778524661: 
+-------------------------------------------------------
+<== Recibida la conexión TCP desde 127.0.0.1 en el proceso monitor.
+
+-------------------------------------------------------
+1778524661: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <984>.
+********************************************[0m
+1778524661: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778524661: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524662: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524663: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778524663: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524663: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778524663: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524666: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778524666: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (2).
+
+-------------------------------------------------------
+1778524668: 
+-------------------------------------------------------
+<== Mensaje [<453>b] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524668: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <453>.
+********************************************[0m
+1778524668: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524668: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (3).
+
+-------------------------------------------------------
+1778524668: 
+-------------------------------------------------------
+<== Mensaje [<294>] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524668: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <294>.
+********************************************[0m
+1778524668: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1778524668: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524674: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778524674: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3001
+
+-------------------------------------------------------
+1778524674: 
+-------------------------------------------------------
+==> Conexión correcta en  127.0.0.1:3001
+
+-------------------------------------------------------
+1778524674: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <707>.
+********************************************[0m
+1778524674: 
+*************************************************
+:ok> CONTEXTO del ejercicio 4 preparado.
+*************************************************
+1778524674: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524677: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 6.
+
+*************************************************
+
+
+1778524677: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (6).
+
+-------------------------------------------------------
+1778524679: 
+-------------------------------------------------------
+<== Mensaje [HOLA!] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524679: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <745>.
+********************************************[0m
+1778524679: 
+*************************************************
+:ok> CONTEXTO del ejercicio 6 preparado.
+*************************************************
+1778524679: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524687: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 7.
+
+*************************************************
+
+
+1778524687: 
+-------------------------------------------------------
+==> Mensaje (5 bytes) enviado al cliente en 127.0.0.1
+
+-------------------------------------------------------
+1778524687: 
+-------------------------------------------------------
+==> Esperando mensaje del apartado (7).
+
+-------------------------------------------------------
+1778524687: 
+-------------------------------------------------------
+<== Mensaje [<258>] (5 bytes) recibido desde 127.0.0.1
+
+-------------------------------------------------------
+1778524687: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <258>.
+********************************************[0m
+1778524687: 
+*************************************************
+:ok> CONTEXTO del ejercicio 7 preparado.
+*************************************************
+1778524687: COMMAND <who >> .trazas-4/alumno-25203218W>
+root     sshd pts/4   2026-05-11 18:28 (192.168.1.75)
+root     sshd pts/3   2026-05-11 18:27 (192.168.1.75)
+1778524690: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-4" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778524690: COMMAND <cp ./client.? .trazas-4>
+1778524690: COMMAND <tar zcf save_file-25203218W .trazas-4 > /dev/null>
+1778524690: COMMAND <which pftp 2>&1 > /dev/null>
+1778524690: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-4\nput save_file-25203218W 25203218W-11-5-18h37\n" | ftp 2>&1 > /dev/null>
+1778524690: COMMAND <test -f .trazas-4/.clean_bck.tz && rm .trazas-4/.clean_bck.tz>

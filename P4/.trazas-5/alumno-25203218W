@@ -1,0 +1,61 @@
+1778499284: COMMAND <cp ./monitor5 /tmp/.monitor5>
+1778499284: COMMAND <cp -f /tmp/.monitor5 ./monitor5>
+1778499284: COMMAND <uname -a >> .trazas-5/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778499284: COMMAND <ifconfig 2>&1 >> .trazas-5/alumno-25203218W>
+1778499284: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-5/alumno-25203218W>
+MACHINE-ID: 1778499284: COMMAND <cat /etc/machine-id >> .trazas-5/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778499284: 
+La máquina está ya identificada.
+1778499284: RX: <OK Accepted>
+1778499286: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778499286: RX: <NEW>
+1778499286: 
+***************************************************
+El usuario no tiene un password público registrado.
+Por favor, confirme el password para darlo de alta.
+[5mEl password debe recordarlo para futuras sesiones.[0m
+Utilice una secuencia de caracteres personal privados.
+En el servidor se guardará una versión encriptada.
+Si no está de acuerdo con el password que ha utilizado
+interrumpa el proceso y comience de nuevo el registro.
+Posteriormente será más complicado modificarlo. Tendrá.
+que ponerse en contacto con el administrador:
+                 armando.ferro@ehu.eus
+***************************************************
+1778499290: TX: <CREATEPWD q9cTc6l6lddTBG>
+1778499290: [5m
+LOGIN: Registrado password público <q9cTc6l6lddTBG>.[0m
+1778499290: RX: <DONE>
+1778499290: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778499290: TX: <UUID XH8zKQFQKcd3PRTk>
+1778499290: RX: <REGISTERED>
+1778499297: COMMAND <cp ./monitor5 /tmp/.monitor5>
+1778499297: COMMAND <cp -f /tmp/.monitor5 ./monitor5>
+1778499297: COMMAND <uname -a >> .trazas-5/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778499297: COMMAND <ifconfig 2>&1 >> .trazas-5/alumno-25203218W>
+1778499297: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-5/alumno-25203218W>
+MACHINE-ID: 1778499297: COMMAND <cat /etc/machine-id >> .trazas-5/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778499297: 
+La máquina está ya identificada.
+1778499297: RX: <OK Accepted>
+1778499297: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778499297: RX: <OK>
+1778499297: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778499297: TX: <UUID XH8zKQFQKcd3PRTk>
+1778499297: RX: <REGISTERED>
+1778499297: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-5" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778499297: COMMAND <cp ./client.? .trazas-5>
+1778499297: COMMAND <tar zcf save_file-25203218W .trazas-5 > /dev/null>
+1778499297: COMMAND <which pftp 2>&1 > /dev/null>
+1778499297: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-5\nput save_file-25203218W 25203218W-11-5-11h34\n" | ftp 2>&1 > /dev/null>
+1778499298: COMMAND <test -f .trazas-5/.clean_bck.tz && rm .trazas-5/.clean_bck.tz>

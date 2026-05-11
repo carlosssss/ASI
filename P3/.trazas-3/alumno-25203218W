@@ -1,0 +1,1662 @@
+1778410590: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778410590: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778410590: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778410590: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778410590: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778410590: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778410590: 
+La máquina está ya identificada.
+1778410590: RX: <OK Accepted>
+1778410593: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778410593: RX: <NEW>
+1778410593: 
+***************************************************
+El usuario no tiene un password público registrado.
+Por favor, confirme el password para darlo de alta.
+[5mEl password debe recordarlo para futuras sesiones.[0m
+Utilice una secuencia de caracteres personal privados.
+En el servidor se guardará una versión encriptada.
+Si no está de acuerdo con el password que ha utilizado
+interrumpa el proceso y comience de nuevo el registro.
+Posteriormente será más complicado modificarlo. Tendrá.
+que ponerse en contacto con el administrador:
+                 armando.ferro@ehu.eus
+***************************************************
+1778410598: TX: <CREATEPWD q9cTc6l6lddTBG>
+1778410598: [5m
+LOGIN: Registrado password público <q9cTc6l6lddTBG>.[0m
+1778410598: RX: <DONE>
+1778410598: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778410598: TX: <UUID XH8zKQFQKcd3PRTk>
+1778410598: RX: <REGISTERED>
+1778410604: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778410604: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778410604: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778410604: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778410604: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778410604: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778410604: 
+La máquina está ya identificada.
+1778410604: RX: <OK Accepted>
+1778410604: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778410604: RX: <OK>
+1778410604: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778410604: TX: <UUID XH8zKQFQKcd3PRTk>
+1778410604: RX: <REGISTERED>
+1778410611: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778410611: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778410611: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778410611: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778410611: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778410611: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778410611: 
+La máquina está ya identificada.
+1778410611: RX: <OK Accepted>
+1778410611: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778410611: RX: <OK>
+1778410611: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778410611: TX: <UUID XH8zKQFQKcd3PRTk>
+1778410611: RX: <REGISTERED>
+1778410611: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778410611: COMMAND <cp ./client.? .trazas-3>
+1778410611: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778410611: COMMAND <which pftp 2>&1 > /dev/null>
+1778410611: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-10-5-10h56\n" | ftp 2>&1 > /dev/null>
+1778410612: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778410614: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778410614: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778411294: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778411294: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778411294: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778411294: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778411294: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778411294: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778411294: 
+La máquina está ya identificada.
+1778411294: RX: <OK Accepted>
+1778411294: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778411294: RX: <OK>
+1778411294: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778411294: TX: <UUID XH8zKQFQKcd3PRTk>
+1778411294: RX: <REGISTERED>
+1778411294: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778411294: COMMAND <cp ./client.? .trazas-3>
+1778411294: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778411294: COMMAND <which pftp 2>&1 > /dev/null>
+1778411294: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-10-5-11h08\n" | ftp 2>&1 > /dev/null>
+1778411295: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778411296: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778411296: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        1024       0                       
+
+1778411296: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x25203218
+-------------------------------------------------------
+1778411296: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778411296: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778411311: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778411311: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <3> .
+
+*************************************************[0m
+1778411311: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778411311: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778411311: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778411349: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778411349: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778411349: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778411349: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778411350: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778411353: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <505>.
+********************************************[0m
+1778411356: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778411356: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778411356: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778411442: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778411442: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778411442: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778411452: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778411452: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778411452: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778411452: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778411452: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778411595: INTENTO DE CONEXION DIA:10 MES:5 HORA:11:13m.
+1778411595: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778411595: COMMAND <cp ./client.? .trazas-3>
+1778411595: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778411595: COMMAND <which pftp 2>&1 > /dev/null>
+1778411595: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-10-5-11h13\n" | ftp 2>&1 > /dev/null>
+1778411595: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778411766: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778411766: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778411774: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778411774: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778411774: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778411774: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778411774: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778411774: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778411774: 
+La máquina está ya identificada.
+1778411774: RX: <OK Accepted>
+1778411774: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778411774: RX: <OK>
+1778411774: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778411774: TX: <UUID XH8zKQFQKcd3PRTk>
+1778411774: RX: <REGISTERED>
+1778411774: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778411774: COMMAND <cp ./client.? .trazas-3>
+1778411774: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778411774: COMMAND <which pftp 2>&1 > /dev/null>
+1778411774: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-10-5-11h16\n" | ftp 2>&1 > /dev/null>
+1778411774: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778411779: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778411779: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778411779: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778411779: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778411781: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778411784: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <505>.
+********************************************[0m
+1778411787: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778411787: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778411787: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778411789: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778411789: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778411789: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778411799: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778411799: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778411799: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778411799: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778411799: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412074: INTENTO DE CONEXION DIA:10 MES:5 HORA:11:21m.
+1778412074: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778412074: COMMAND <cp ./client.? .trazas-3>
+1778412074: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778412074: COMMAND <which pftp 2>&1 > /dev/null>
+1778412074: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-10-5-11h21\n" | ftp 2>&1 > /dev/null>
+1778412075: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778412079: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778412079: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412079: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778412089: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778412089: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778412089: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778412089: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412089: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412090: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778412090: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778412090: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778412090: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778412092: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778412095: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <505>.
+********************************************[0m
+1778412098: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778412098: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412098: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412101: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778412101: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412101: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778412111: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778412111: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778412111: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778412111: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412111: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412145: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778412145: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778412145: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778412145: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778412146: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778412149: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <505>.
+********************************************[0m
+1778412152: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778412152: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412152: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412153: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778412153: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412153: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778412163: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778412163: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778412163: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778412163: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412163: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412167: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778412167: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412167: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778412177: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778412177: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778412177: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778412177: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412177: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412374: INTENTO DE CONEXION DIA:10 MES:5 HORA:11:26m.
+1778412374: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778412374: COMMAND <cp ./client.? .trazas-3>
+1778412374: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778412374: COMMAND <which pftp 2>&1 > /dev/null>
+1778412374: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-10-5-11h26\n" | ftp 2>&1 > /dev/null>
+1778412375: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778412423: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778412423: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778412423: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778412423: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778412438: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778412438: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <3> .
+
+*************************************************[0m
+1778412438: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778412438: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412438: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412447: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778412447: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778412447: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778412447: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778412448: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778412451: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <505>.
+********************************************[0m
+1778412454: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778412454: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412454: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412456: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778412456: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412456: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778412466: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778412466: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778412466: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778412466: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412466: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412648: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778412648: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778412648: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778412648: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778412648: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778412648: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778412648: 
+La máquina está ya identificada.
+1778412648: RX: <OK Accepted>
+1778412648: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778412648: RX: <OK>
+1778412648: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778412648: TX: <UUID XH8zKQFQKcd3PRTk>
+1778412648: RX: <REGISTERED>
+1778412648: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778412648: COMMAND <cp ./client.? .trazas-3>
+1778412648: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778412648: COMMAND <which pftp 2>&1 > /dev/null>
+1778412648: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-10-5-11h30\n" | ftp 2>&1 > /dev/null>
+1778412648: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778412650: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778412650: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778412650: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778412650: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778412665: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778412665: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <3> .
+
+*************************************************[0m
+1778412665: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778412665: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412665: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412676: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778412676: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778412676: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778412676: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778412679: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778412682: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <505>.
+********************************************[0m
+1778412685: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778412685: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412685: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412686: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778412686: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412686: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778412696: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778412696: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778412696: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778412696: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412696: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412804: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778412804: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778412804: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778412804: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778412805: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778412808: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <505>.
+********************************************[0m
+1778412811: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778412811: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412811: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412812: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778412812: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412812: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778412822: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778412822: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778412822: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778412822: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412822: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412880: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778412880: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778412880: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778412880: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778412881: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778412884: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <505>.
+********************************************[0m
+1778412887: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778412887: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412887: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778412888: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778412888: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412888: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778412898: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778412898: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778412898: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778412898: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778412898: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778413045: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778413045: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778413045: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778413045: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778413045: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778413045: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778413045: 
+La máquina está ya identificada.
+1778413045: RX: <OK Accepted>
+1778413045: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778413045: RX: <OK>
+1778413045: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778413045: TX: <UUID XH8zKQFQKcd3PRTk>
+1778413045: RX: <REGISTERED>
+1778413045: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778413045: COMMAND <cp ./client.? .trazas-3>
+1778413045: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778413045: COMMAND <which pftp 2>&1 > /dev/null>
+1778413045: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-10-5-11h37\n" | ftp 2>&1 > /dev/null>
+1778413046: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778413047: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778413047: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778413047: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778413047: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778413049: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778413052: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <505>.
+********************************************[0m
+1778413055: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778413055: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778413055: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778413056: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778413056: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778413056: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778413062: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778413062: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778413064: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <978>.
+********************************************[0m
+1778413064: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1778413064: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <932>.
+********************************************[0m
+1778413064: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1778413064: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <751>.
+********************************************[0m
+1778413064: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1778413064: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <995>.
+********************************************[0m
+1778413067: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778413067: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778413067: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-10 10:44 (192.168.1.75)
+root     sshd pts/3   2026-05-10 10:44 (192.168.1.75)
+1778493006: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778493006: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778493006: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778493006: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778493006: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778493006: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778493006: 
+La máquina está ya identificada.
+1778493006: RX: <OK Accepted>
+1778493010: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778493010: RX: <OK>
+1778493010: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778493010: TX: <UUID XH8zKQFQKcd3PRTk>
+1778493010: RX: <REGISTERED>
+1778493010: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778493010: COMMAND <cp ./client.? .trazas-3>
+1778493010: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778493010: COMMAND <which pftp 2>&1 > /dev/null>
+1778493010: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-11-5-9h50\n" | ftp 2>&1 > /dev/null>
+1778493011: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778493015: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778493015: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778493015: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778493025: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <4> .
+
+*************************************************[0m
+1778493025: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778493025: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778493025: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778493025: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778493026: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778493029: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778493029: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778493029: 
+[5m********************************************
+:ok> Ejercicio 1 bien realizado pendiente de obtener resultados.
+********************************************[0m
+1778493029: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778493030: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778493033: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <505>.
+********************************************[0m
+1778493036: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778493036: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778493036: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778493037: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778493037: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778493037: 
+----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación de la memoria compartida <0x25203218> por el proceso <client>.
+----------------------------------------------------------------------------------
+1778493043: 
+--------------------------------------------------------------------------------------
+Esperando 15 segundos a que se enganche a la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------
+1778493043: 
+--------------------------------------------------------------------------------------------------
+ENGANCHADO. Esperando 5 segundos a que se DESenganche de la memoria compartida <0x25203218> el proceso <client>.
+--------------------------------------------------------------------------------------------------
+1778493045: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <978>.
+********************************************[0m
+1778493045: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <2>.
+*******************************************************
+1778493045: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <932>.
+********************************************[0m
+1778493045: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <5>.
+*******************************************************
+1778493045: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <751>.
+********************************************[0m
+1778493045: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <1>.
+*******************************************************
+1778493045: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <995>.
+********************************************[0m
+1778493048: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778493048: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778493048: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778493052: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778493052: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778493052: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x25203218> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1778493062: 
+-------------------------------------------------------
+RESPUESTA NO RECIBIDA A TIEMPO.
+-------------------------------------------------------
+1778493062: 
+[5m*************************************************
+:NOK> Intento fallido para conseguir la clave <6> .
+
+*************************************************[0m
+1778493062: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1778493062: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778493062: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778493561: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778493561: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778493561: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778493561: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778493561: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778493561: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778493561: 
+La máquina está ya identificada.
+1778493561: RX: <OK Accepted>
+1778493561: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778493561: RX: <OK>
+1778493561: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778493561: TX: <UUID XH8zKQFQKcd3PRTk>
+1778493561: RX: <REGISTERED>
+1778493561: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778493561: COMMAND <cp ./client.? .trazas-3>
+1778493561: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778493561: COMMAND <which pftp 2>&1 > /dev/null>
+1778493561: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-11-5-9h59\n" | ftp 2>&1 > /dev/null>
+1778493561: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778493563: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778493563: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778493563: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x25203218> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1778493564: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <6>.
+*******************************************************
+1778493564: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <96>.
+********************************************[0m
+1778493567: 
+*************************************************
+:ok> CONTEXTO del ejercicio 3 preparado.
+*************************************************
+1778493567: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778493567: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778493570: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778493570: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778493646: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778493646: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778493646: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778493646: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778493646: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778493646: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778493646: 
+La máquina está ya identificada.
+1778493646: RX: <OK Accepted>
+1778493646: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778493646: RX: <OK>
+1778493646: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778493646: TX: <UUID XH8zKQFQKcd3PRTk>
+1778493646: RX: <REGISTERED>
+1778493646: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778493646: COMMAND <cp ./client.? .trazas-3>
+1778493646: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778493646: COMMAND <which pftp 2>&1 > /dev/null>
+1778493646: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-11-5-10h00\n" | ftp 2>&1 > /dev/null>
+1778493647: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778493669: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 4.
+
+*************************************************
+
+
+1778493669: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778493669: 
+-----------------------------------------------------------------------------------
+ Esperando 10 segundos a la creación del semáforo <0x25203218> por el proceso <client>.
+-----------------------------------------------------------------------------------
+1778493678: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <7>.
+*******************************************************
+1778493678: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <7> es <733>.
+********************************************[0m
+1778493681: 
+*************************************************
+:ok> CONTEXTO del ejercicio 4 preparado.
+*************************************************
+1778493681: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778493681: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778493690: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1778493690: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778493690: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778494824: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778494824: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778494824: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778494824: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778494824: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778494824: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778494824: 
+La máquina está ya identificada.
+1778494824: RX: <OK Accepted>
+1778494824: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778494824: RX: <OK>
+1778494824: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778494824: TX: <UUID XH8zKQFQKcd3PRTk>
+1778494824: RX: <REGISTERED>
+1778494824: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778494824: COMMAND <cp ./client.? .trazas-3>
+1778494824: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778494824: COMMAND <which pftp 2>&1 > /dev/null>
+1778494824: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-11-5-10h20\n" | ftp 2>&1 > /dev/null>
+1778494825: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778494829: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1778494829: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778494829: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 15         root       666        1024       0                       
+
+1778494845: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778494845: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778494845: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778494845: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778494845: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778494845: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778494845: 
+La máquina está ya identificada.
+1778494845: RX: <OK Accepted>
+1778494845: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778494845: RX: <OK>
+1778494845: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778494845: TX: <UUID XH8zKQFQKcd3PRTk>
+1778494845: RX: <REGISTERED>
+1778494845: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778494845: COMMAND <cp ./client.? .trazas-3>
+1778494845: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778494845: COMMAND <which pftp 2>&1 > /dev/null>
+1778494845: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-11-5-10h20\n" | ftp 2>&1 > /dev/null>
+1778494845: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778494973: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 5.
+
+*************************************************
+
+
+1778494973: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778494973: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 15         root       666        1024       0                       
+
+1778494973: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x25203218
+-------------------------------------------------------
+1778494973: 
+-------------------------------------------------------
+ Esperando 10 segundos a la operación del semáforo <0x25203218> por el proceso <client>.
+-------------------------------------------------------
+1778494975: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x25203218.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1778494978: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <8>.
+*******************************************************
+1778494978: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <8> es <414>.
+********************************************[0m
+1778494978: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <9>.
+*******************************************************
+1778494978: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <9> es <171>.
+********************************************[0m
+1778494978: 
+*************************************************
+:ok> CONTEXTO del ejercicio 5 preparado.
+*************************************************
+1778494978: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778494978: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778494978: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778494985: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 6.
+
+*************************************************
+
+
+1778494985: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778494985: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778495268: COMMAND <cp ./monitor3 /tmp/.monitor3>
+1778495268: COMMAND <cp -f /tmp/.monitor3 ./monitor3>
+1778495268: COMMAND <uname -a >> .trazas-3/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778495268: COMMAND <ifconfig 2>&1 >> .trazas-3/alumno-25203218W>
+1778495268: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-3/alumno-25203218W>
+MACHINE-ID: 1778495268: COMMAND <cat /etc/machine-id >> .trazas-3/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778495268: 
+La máquina está ya identificada.
+1778495268: RX: <OK Accepted>
+1778495268: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778495268: RX: <OK>
+1778495268: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778495268: TX: <UUID XH8zKQFQKcd3PRTk>
+1778495268: RX: <REGISTERED>
+1778495268: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-3" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778495268: COMMAND <cp ./client.? .trazas-3>
+1778495268: COMMAND <tar zcf save_file-25203218W .trazas-3 > /dev/null>
+1778495268: COMMAND <which pftp 2>&1 > /dev/null>
+1778495268: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/practica-3\nput save_file-25203218W 25203218W-11-5-10h27\n" | ftp 2>&1 > /dev/null>
+1778495268: COMMAND <test -f .trazas-3/.clean_bck.tz && rm .trazas-3/.clean_bck.tz>
+1778495270: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 6.
+
+*************************************************
+
+
+1778495270: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778495270: COMMAND <ipcs -m >> .trazas-3/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 16         root       666        1024       0                       
+
+1778495270: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x25203218
+-------------------------------------------------------
+1778495270: 
+-------------------------------------------------------
+ Esperando 10 segundos a la operación del semáforo <0x25203218> por el proceso <client>.
+-------------------------------------------------------
+1778495272: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x25203218.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1778495272: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x25203218.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1778495272: 
+-------------------------------------------------------
+Identificada operación sobre semáforo 0x25203218.
+Esperando 5 segundos para acceso a sección crítica.
+-------------------------------------------------------
+1778495275: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <10> es <468>.
+********************************************[0m
+1778495275: 
+*******************************************************
+ Comprobar condiciones de cumplimiento de la clave <11>.
+*******************************************************
+1778495275: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <11> es <489>.
+********************************************[0m
+1778495275: 
+*************************************************
+:ok> CONTEXTO del ejercicio 6 preparado.
+*************************************************
+1778495275: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>
+1778495275: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778495275: COMMAND <who >> .trazas-3/alumno-25203218W>
+root     sshd pts/4   2026-05-11 09:17 (192.168.1.75)
+root     sshd pts/3   2026-05-11 09:17 (192.168.1.75)
+1778495284: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 7.
+
+*************************************************
+
+
+1778495284: COMMAND <ipcrm -S 0x25203218 > /dev/null 2>&1>
+1778495284: COMMAND <ipcrm -M 0x25203218 > /dev/null 2>&1>

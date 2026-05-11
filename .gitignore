@@ -1,10 +1,8 @@
 # Ignorar ejecutables (asumiendo que no tienen extensión en Linux)
 client
-monitor1
 server
 
 # Ignorar carpetas de trazas o logs
-.trazas-*/
 *.log
 
 # Ignorar archivos objeto de compilación
