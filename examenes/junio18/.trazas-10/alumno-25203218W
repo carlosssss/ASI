@@ -1,0 +1,4179 @@
+1778581143: COMMAND <cp ./examen10 /tmp/.examen10>
+1778581143: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778581143: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778581143: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778581143: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778581143: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778581143: 
+La máquina está ya identificada.
+1778581143: RX: <OK Accepted>
+1778581146: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778581146: RX: <NEW>
+1778581146: 
+***************************************************
+El usuario no tiene un password público registrado.
+Por favor, confirme el password para darlo de alta.
+[5mEl password debe recordarlo para futuras sesiones.[0m
+Utilice una secuencia de caracteres personal privados.
+En el servidor se guardará una versión encriptada.
+Si no está de acuerdo con el password que ha utilizado
+interrumpa el proceso y comience de nuevo el registro.
+Posteriormente será más complicado modificarlo. Tendrá.
+que ponerse en contacto con el administrador:
+                 armando.ferro@ehu.eus
+***************************************************
+1778581151: TX: <CREATEPWD q9cTc6l6lddTBG>
+1778581151: [5m
+LOGIN: Registrado password público <q9cTc6l6lddTBG>.[0m
+1778581151: RX: <DONE>
+1778581151: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778581151: TX: <UUID XH8zKQFQKcd3PRTk>
+1778581151: RX: <REGISTERED>
+1778581151: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778581151: COMMAND <cp ./client.? .trazas-10>
+1778581151: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778581151: COMMAND <which pftp 2>&1 > /dev/null>
+1778581151: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-10h19\n" | ftp 2>&1 > /dev/null>
+1778581152: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778581155: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778581155: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778581155: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778581155: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778581155: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778581155: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778581155: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778581155: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778581155: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778581155: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778581155: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778581795: COMMAND <cp ./examen10 /tmp/.examen10>
+1778581795: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778581795: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778581795: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778581795: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778581795: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778581795: 
+La máquina está ya identificada.
+1778581795: RX: <OK Accepted>
+1778581795: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778581795: RX: <OK>
+1778581795: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778581795: TX: <UUID XH8zKQFQKcd3PRTk>
+1778581795: RX: <REGISTERED>
+1778581795: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778581795: COMMAND <cp ./client.? .trazas-10>
+1778581795: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778581795: COMMAND <which pftp 2>&1 > /dev/null>
+1778581795: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-10h29\n" | ftp 2>&1 > /dev/null>
+1778581795: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778582246: COMMAND <cp ./examen10 /tmp/.examen10>
+1778582246: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778582246: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778582246: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778582246: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778582246: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778582246: 
+La máquina está ya identificada.
+1778582246: RX: <OK Accepted>
+1778582246: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778582246: RX: <OK>
+1778582246: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778582246: TX: <UUID XH8zKQFQKcd3PRTk>
+1778582246: RX: <REGISTERED>
+1778582246: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778582246: COMMAND <cp ./client.? .trazas-10>
+1778582246: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778582246: COMMAND <which pftp 2>&1 > /dev/null>
+1778582246: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-10h37\n" | ftp 2>&1 > /dev/null>
+1778582247: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778582248: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778582248: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778582248: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778582248: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778582248: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778582248: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778582251: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778582251: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778582251: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778582251: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778582251: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778582334: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778582334: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778582334: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778582334: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778582334: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778582334: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778582337: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778582337: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778582337: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778582337: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778582337: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778582584: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778582584: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778582584: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778582584: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778582584: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778582584: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778582584: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778582584: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778582584: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778582584: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778582584: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778582585: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778582604: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778582604: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+1778582604: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778582604: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778582604: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778582731: COMMAND <cp ./examen10 /tmp/.examen10>
+1778582731: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778582731: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778582731: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778582731: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778582731: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778582731: 
+La máquina está ya identificada.
+1778582731: RX: <OK Accepted>
+1778582731: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778582731: RX: <OK>
+1778582731: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778582731: TX: <UUID XH8zKQFQKcd3PRTk>
+1778582731: RX: <REGISTERED>
+1778582731: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778582731: COMMAND <cp ./client.? .trazas-10>
+1778582731: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778582731: COMMAND <which pftp 2>&1 > /dev/null>
+1778582731: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-10h45\n" | ftp 2>&1 > /dev/null>
+1778582731: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778582732: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778582732: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778582732: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778582732: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778582732: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778582732: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778582732: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778582732: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778582732: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778582732: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778582732: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778582733: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778582735: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778582735: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       0                       
+
+1778582735: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778582735: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778582735: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778582735: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778582735: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778582735: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778582735: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778582735: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778582735: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778582749: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778582749: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778582749: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778582749: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778582749: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778582749: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778582749: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778582749: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778582749: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778582749: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778582749: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778582763: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778582763: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778582763: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778582763: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778582763: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778582763: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778582763: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778582763: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778582763: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778582763: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778582763: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778583385: COMMAND <cp ./examen10 /tmp/.examen10>
+1778583385: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778583385: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778583385: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778583385: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778583385: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778583385: 
+La máquina está ya identificada.
+1778583385: RX: <OK Accepted>
+1778583385: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778583385: RX: <OK>
+1778583385: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778583385: TX: <UUID XH8zKQFQKcd3PRTk>
+1778583385: RX: <REGISTERED>
+1778583385: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778583385: COMMAND <cp ./client.? .trazas-10>
+1778583385: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778583385: COMMAND <which pftp 2>&1 > /dev/null>
+1778583385: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-10h56\n" | ftp 2>&1 > /dev/null>
+1778583386: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778583387: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778583387: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       0                       
+
+1778583387: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778583387: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778583387: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778583387: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778583387: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778583387: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778583387: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778583387: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778583387: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778583387: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778583387: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778583473: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778583473: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778583473: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778583473: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778583473: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778583473: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778583473: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778583473: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778583473: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778583473: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778583473: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778583555: COMMAND <cp ./examen10 /tmp/.examen10>
+1778583555: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778583555: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778583555: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778583555: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778583555: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778583555: 
+La máquina está ya identificada.
+1778583555: RX: <OK Accepted>
+1778583555: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778583555: RX: <OK>
+1778583555: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778583555: TX: <UUID XH8zKQFQKcd3PRTk>
+1778583555: RX: <REGISTERED>
+1778583555: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778583555: COMMAND <cp ./client.? .trazas-10>
+1778583555: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778583555: COMMAND <which pftp 2>&1 > /dev/null>
+1778583555: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-10h59\n" | ftp 2>&1 > /dev/null>
+1778583555: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778583556: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778583556: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       0                       
+
+1778583556: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778583556: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778583556: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778583556: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778583556: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778583556: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778583556: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778583556: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778583556: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778583556: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778583556: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778584031: COMMAND <cp ./examen10 /tmp/.examen10>
+1778584031: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778584031: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778584031: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778584031: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778584031: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778584031: 
+La máquina está ya identificada.
+1778584031: RX: <OK Accepted>
+1778584031: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778584031: RX: <OK>
+1778584031: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778584031: TX: <UUID XH8zKQFQKcd3PRTk>
+1778584031: RX: <REGISTERED>
+1778584031: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778584031: COMMAND <cp ./client.? .trazas-10>
+1778584031: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778584031: COMMAND <which pftp 2>&1 > /dev/null>
+1778584031: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-11h07\n" | ftp 2>&1 > /dev/null>
+1778584031: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778584034: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778584034: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778584034: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778584034: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778584034: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778584034: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778584034: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778584034: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778584034: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778584034: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778584034: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778584034: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778584034: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:06 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778584600: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778584600: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778584600: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778584600: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778584600: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778584600: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778584600: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778584600: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778584600: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778584600: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778584600: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:06 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778584732: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778584732: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778584732: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778584732: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778584732: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778584732: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778584732: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778584732: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778584732: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778584732: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778584732: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:06 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778584737: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778584737: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778584737: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778584737: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778584737: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778584737: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778584737: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778584737: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778584737: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778584737: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778584737: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:06 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778584742: COMMAND <cp ./examen10 /tmp/.examen10>
+1778584742: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778584742: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778584742: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778584742: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778584742: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778584742: 
+La máquina está ya identificada.
+1778584742: RX: <OK Accepted>
+1778584742: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778584742: RX: <OK>
+1778584742: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778584742: TX: <UUID XH8zKQFQKcd3PRTk>
+1778584743: RX: <REGISTERED>
+1778584743: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778584743: COMMAND <cp ./client.? .trazas-10>
+1778584743: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778584743: COMMAND <which pftp 2>&1 > /dev/null>
+1778584743: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-11h19\n" | ftp 2>&1 > /dev/null>
+1778584743: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778584745: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778584745: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778584745: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778584745: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778584745: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778584745: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778584745: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778584745: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778584745: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778584745: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778584745: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778584745: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778584745: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:06 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778585033: COMMAND <cp ./examen10 /tmp/.examen10>
+1778585033: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778585033: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778585033: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778585033: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778585033: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778585033: 
+La máquina está ya identificada.
+1778585033: RX: <OK Accepted>
+1778585036: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778585036: RX: <OK>
+1778585036: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778585036: TX: <UUID XH8zKQFQKcd3PRTk>
+1778585036: RX: <REGISTERED>
+1778585036: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778585036: COMMAND <cp ./client.? .trazas-10>
+1778585036: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778585036: COMMAND <which pftp 2>&1 > /dev/null>
+1778585036: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-11h23\n" | ftp 2>&1 > /dev/null>
+1778585037: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778585038: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778585038: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778585038: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778585038: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778585038: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778585038: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778585038: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778585038: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778585038: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778585038: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778585038: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778585038: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778585038: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:06 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778585368: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778585368: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778585368: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778585368: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778585368: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778585368: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778585368: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778585368: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778585368: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778585368: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778585368: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:28 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778585369: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778585369: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778585369: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778585369: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778585369: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778585369: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778585369: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778585369: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778585369: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778585370: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:28 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778585372: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778585372: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778585372: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778585372: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778585372: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778585372: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778585372: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778585372: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778585372: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778585372: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778585372: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:28 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778585474: COMMAND <cp ./examen10 /tmp/.examen10>
+1778585474: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778585474: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778585474: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778585474: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778585474: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778585474: 
+La máquina está ya identificada.
+1778585474: RX: <OK Accepted>
+1778585474: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778585474: RX: <OK>
+1778585474: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778585474: TX: <UUID XH8zKQFQKcd3PRTk>
+1778585474: RX: <REGISTERED>
+1778585474: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778585474: COMMAND <cp ./client.? .trazas-10>
+1778585474: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778585474: COMMAND <which pftp 2>&1 > /dev/null>
+1778585474: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-11h31\n" | ftp 2>&1 > /dev/null>
+1778585475: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778585477: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778585477: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778585477: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778585477: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778585477: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778585477: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778585477: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778585477: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778585477: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778585477: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778585477: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778585477: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778585477: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:28 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778585655: COMMAND <cp ./examen10 /tmp/.examen10>
+1778585655: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778585655: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778585655: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778585655: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778585655: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778585655: 
+La máquina está ya identificada.
+1778585655: RX: <OK Accepted>
+1778585655: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778585655: RX: <OK>
+1778585655: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778585655: TX: <UUID XH8zKQFQKcd3PRTk>
+1778585655: RX: <REGISTERED>
+1778585655: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778585655: COMMAND <cp ./client.? .trazas-10>
+1778585655: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778585655: COMMAND <which pftp 2>&1 > /dev/null>
+1778585655: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-11h34\n" | ftp 2>&1 > /dev/null>
+1778585656: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778585860: COMMAND <cp ./examen10 /tmp/.examen10>
+1778585860: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778585860: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778585860: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778585860: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778585860: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778585860: 
+La máquina está ya identificada.
+1778585860: RX: <OK Accepted>
+1778585860: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778585860: RX: <OK>
+1778585860: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778585860: TX: <UUID XH8zKQFQKcd3PRTk>
+1778585860: RX: <REGISTERED>
+1778585860: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778585860: COMMAND <cp ./client.? .trazas-10>
+1778585860: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778585860: COMMAND <which pftp 2>&1 > /dev/null>
+1778585860: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-11h37\n" | ftp 2>&1 > /dev/null>
+1778585861: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778585863: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778585863: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778585863: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778585863: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778585863: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778585863: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778585863: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778585863: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778585863: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778585863: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778585863: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778585863: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778585863: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd         2026-05-12 11:28 (192.168.1.75)
+root     sshd pts/4   2026-05-12 09:30 (192.168.1.75)
+root     sshd pts/3   2026-05-12 09:30 (192.168.1.75)
+1778597471: COMMAND <cp ./examen10 /tmp/.examen10>
+1778597471: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778597471: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778597471: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778597471: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778597471: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778597471: 
+La máquina está ya identificada.
+1778597471: RX: <OK Accepted>
+1778597474: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778597474: RX: <OK>
+1778597474: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778597474: TX: <UUID XH8zKQFQKcd3PRTk>
+1778597474: RX: <REGISTERED>
+1778597474: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778597474: COMMAND <cp ./client.? .trazas-10>
+1778597474: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778597474: COMMAND <which pftp 2>&1 > /dev/null>
+1778597474: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-14h51\n" | ftp 2>&1 > /dev/null>
+1778597475: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778597476: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778597476: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778597476: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778597476: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778597476: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778597476: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597479: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778597479: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778597479: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778597479: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778597479: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 14:48 (192.168.1.75)
+1778597480: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778597480: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778597480: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778597480: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778597480: 
+-------------------------------------------------------
+==> Mensaje (13 bytes) enviado al cliente en 127.0.0.1
+TX (5): <W>
+-------------------------------------------------------
+1778597480: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597480: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778597480: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778597480: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778597480: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778597480: 
+-------------------------------------------------------
+==> Mensaje (13 bytes) enviado al cliente en 127.0.0.1
+TX (5): <W>
+-------------------------------------------------------
+1778597480: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597480: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778597480: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778597480: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778597480: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778597480: 
+-------------------------------------------------------
+==> Mensaje (9 bytes) enviado al cliente en 127.0.0.1
+TX (5): <R>
+-------------------------------------------------------
+1778597480: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597480: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778597480: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778597480: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 3.
+
+*************************************************[0m
+1778597480: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 14:48 (192.168.1.75)
+1778597487: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778597487: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778597487: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778597487: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778597487: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778597487: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597490: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778597490: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778597490: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778597490: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778597490: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 14:48 (192.168.1.75)
+1778597658: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778597658: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778597658: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778597658: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778597658: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778597658: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778597658: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <32>.
+********************************************[0m
+1778597658: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778597658: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778597658: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Mensaje (21 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Mensaje (23 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778597658: 
+-------------------------------------------------------
+El dispostivo (2) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778597658: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778597658: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778597658: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 14:48 (192.168.1.75)
+1778598127: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778598127: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778598127: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598127: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598127: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598127: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598130: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778598130: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778598130: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598130: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778598130: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 14:48 (192.168.1.75)
+1778598155: COMMAND <cp ./examen10 /tmp/.examen10>
+1778598155: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778598155: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778598155: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778598155: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778598155: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778598155: 
+La máquina está ya identificada.
+1778598155: RX: <OK Accepted>
+1778598155: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778598155: RX: <OK>
+1778598155: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778598155: TX: <UUID XH8zKQFQKcd3PRTk>
+1778598155: RX: <REGISTERED>
+1778598155: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778598155: COMMAND <cp ./client.? .trazas-10>
+1778598155: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778598155: COMMAND <which pftp 2>&1 > /dev/null>
+1778598155: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-15h02\n" | ftp 2>&1 > /dev/null>
+1778598156: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778598170: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778598170: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778598170: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598170: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598170: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778598170: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778598170: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <32>.
+********************************************[0m
+1778598170: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598170: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598170: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Mensaje (21 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Mensaje (23 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598170: 
+-------------------------------------------------------
+El dispostivo (2) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778598170: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598170: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778598170: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 14:48 (192.168.1.75)
+1778598284: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778598284: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       3                       
+
+1778598284: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598284: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598284: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598284: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598284: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Mensaje (21 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Mensaje (23 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598284: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778598284: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598284: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778598284: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 14:48 (192.168.1.75)
+1778598416: COMMAND <cp ./examen10 /tmp/.examen10>
+1778598416: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778598416: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778598416: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778598416: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778598416: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778598416: 
+La máquina está ya identificada.
+1778598416: RX: <OK Accepted>
+1778598416: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778598416: RX: <OK>
+1778598416: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778598416: TX: <UUID XH8zKQFQKcd3PRTk>
+1778598416: RX: <REGISTERED>
+1778598416: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778598416: COMMAND <cp ./client.? .trazas-10>
+1778598416: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778598416: COMMAND <which pftp 2>&1 > /dev/null>
+1778598416: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-15h06\n" | ftp 2>&1 > /dev/null>
+1778598417: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778598420: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778598420: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778598420: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598420: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598420: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778598420: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778598420: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <32>.
+********************************************[0m
+1778598420: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598420: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598420: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Mensaje (21 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Mensaje (23 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598420: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778598420: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598420: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778598420: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 15:06 (192.168.1.75)
+1778598424: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 3.
+
+*************************************************
+
+
+1778598424: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778598440: COMMAND <cp ./examen10 /tmp/.examen10>
+1778598440: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778598440: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778598440: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778598440: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778598440: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778598440: 
+La máquina está ya identificada.
+1778598440: RX: <OK Accepted>
+1778598440: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778598440: RX: <OK>
+1778598440: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778598440: TX: <UUID XH8zKQFQKcd3PRTk>
+1778598440: RX: <REGISTERED>
+1778598440: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778598440: COMMAND <cp ./client.? .trazas-10>
+1778598440: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778598440: COMMAND <which pftp 2>&1 > /dev/null>
+1778598440: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-15h07\n" | ftp 2>&1 > /dev/null>
+1778598440: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778598442: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778598442: COMMAND <cp ./client.? .trazas-10>
+1778598442: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778598442: COMMAND <which pftp 2>&1 > /dev/null>
+1778598442: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-15h07\n" | ftp 2>&1 > /dev/null>
+1778598443: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778598444: COMMAND <cp ./examen10 /tmp/.examen10>
+1778598444: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778598444: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778598444: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778598444: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778598444: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778598444: 
+La máquina está ya identificada.
+1778598444: RX: <OK Accepted>
+1778598444: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778598444: RX: <OK>
+1778598444: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778598444: TX: <UUID XH8zKQFQKcd3PRTk>
+1778598444: RX: <REGISTERED>
+1778598444: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778598444: COMMAND <cp ./client.? .trazas-10>
+1778598444: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778598444: COMMAND <which pftp 2>&1 > /dev/null>
+1778598444: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-15h07\n" | ftp 2>&1 > /dev/null>
+1778598445: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778598446: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778598446: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778598446: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598446: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598446: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598446: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598446: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598446: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778598446: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778598446: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778598446: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598447: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 15:06 (192.168.1.75)
+1778598450: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778598450: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778598450: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598450: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598450: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <32>.
+********************************************[0m
+1778598450: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598450: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598450: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Mensaje (21 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Mensaje (23 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598450: 
+-------------------------------------------------------
+El dispostivo (0) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778598450: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598450: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778598450: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 15:06 (192.168.1.75)
+1778598537: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778598537: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       2                       
+
+1778598537: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598537: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598537: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598537: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598537: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Mensaje (21 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Mensaje (23 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598537: 
+-------------------------------------------------------
+El dispostivo (2) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778598537: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598537: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778598537: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 15:06 (192.168.1.75)
+1778598541: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778598541: COMMAND <cp ./client.? .trazas-10>
+1778598541: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778598541: COMMAND <which pftp 2>&1 > /dev/null>
+1778598541: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-15h07\n" | ftp 2>&1 > /dev/null>
+1778598542: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778598543: COMMAND <cp ./examen10 /tmp/.examen10>
+1778598543: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778598543: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778598543: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778598543: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778598543: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778598543: 
+La máquina está ya identificada.
+1778598543: RX: <OK Accepted>
+1778598543: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778598543: RX: <OK>
+1778598543: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778598543: TX: <UUID XH8zKQFQKcd3PRTk>
+1778598543: RX: <REGISTERED>
+1778598543: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778598543: COMMAND <cp ./client.? .trazas-10>
+1778598543: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778598543: COMMAND <which pftp 2>&1 > /dev/null>
+1778598543: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-15h09\n" | ftp 2>&1 > /dev/null>
+1778598544: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778598545: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778598545: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 0          root       666        4096       1                       
+
+1778598545: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598545: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598545: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778598545: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778598545: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <32>.
+********************************************[0m
+1778598545: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598545: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778598545: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Mensaje (21 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Mensaje (23 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778598545: 
+-------------------------------------------------------
+El dispostivo (2) no ha sido dado de alta en memoria
+
+-------------------------------------------------------
+1778598545: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778598545: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778598545: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/6   2026-05-12 15:06 (192.168.1.75)
+1778608378: COMMAND <cp ./examen10 /tmp/.examen10>
+1778608378: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778608378: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778608378: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778608378: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778608378: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778608378: 
+La máquina está ya identificada.
+1778608378: RX: <OK Accepted>
+1778608381: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778608381: RX: <OK>
+1778608381: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778608381: TX: <UUID XH8zKQFQKcd3PRTk>
+1778608381: RX: <REGISTERED>
+1778608381: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778608381: COMMAND <cp ./client.? .trazas-10>
+1778608381: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778608381: COMMAND <which pftp 2>&1 > /dev/null>
+1778608381: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-17h52\n" | ftp 2>&1 > /dev/null>
+1778608382: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778608388: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778608388: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778608388: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778608388: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778608388: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778608394: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778608394: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778608394: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778608394: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778608394: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778608401: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778608401: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778608401: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778608401: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778608401: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778608408: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778608408: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778608408: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778608408: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778608408: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778608408: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778608411: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778608411: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778608411: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778608411: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778608411: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778609271: COMMAND <cp ./examen10 /tmp/.examen10>
+1778609271: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778609271: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778609271: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778609271: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778609271: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778609271: 
+La máquina está ya identificada.
+1778609271: RX: <OK Accepted>
+1778609271: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778609271: RX: <OK>
+1778609271: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778609271: TX: <UUID XH8zKQFQKcd3PRTk>
+1778609271: RX: <REGISTERED>
+1778609271: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778609271: COMMAND <cp ./client.? .trazas-10>
+1778609271: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778609271: COMMAND <which pftp 2>&1 > /dev/null>
+1778609271: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-18h07\n" | ftp 2>&1 > /dev/null>
+1778609271: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778609534: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778609534: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778609534: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778609534: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778609534: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778609534: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778609534: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778609534: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778609534: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778609534: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778609534: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778609574: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778609574: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778609574: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778609574: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778609574: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778609574: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778609577: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778609577: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778609577: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778609577: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778609577: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778609712: COMMAND <cp ./examen10 /tmp/.examen10>
+1778609712: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778609712: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778609712: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778609712: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778609712: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778609712: 
+La máquina está ya identificada.
+1778609712: RX: <OK Accepted>
+1778609712: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778609712: RX: <OK>
+1778609712: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778609712: TX: <UUID XH8zKQFQKcd3PRTk>
+1778609712: RX: <REGISTERED>
+1778609712: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778609712: COMMAND <cp ./client.? .trazas-10>
+1778609712: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778609712: COMMAND <which pftp 2>&1 > /dev/null>
+1778609712: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-18h15\n" | ftp 2>&1 > /dev/null>
+1778609713: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778609717: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778609717: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778609717: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778609717: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778609717: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778609717: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778609717: 
+-------------------------------------------------------
+<== Mensaje (99 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778609717: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778609717: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <978>.
+********************************************[0m
+1778609717: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778609717: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778609718: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778609876: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778609876: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778609876: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778609876: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778609876: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778609876: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778609876: 
+-------------------------------------------------------
+<== Mensaje (99 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778609876: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778609876: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778609876: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778609877: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778609895: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778609895: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778609895: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778609895: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778609895: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778609895: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778609895: 
+-------------------------------------------------------
+<== Mensaje (99 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778609895: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778609895: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778609895: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778609896: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610043: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610043: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610043: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610043: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610043: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610043: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610043: 
+-------------------------------------------------------
+<== Mensaje (99 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778610043: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778610043: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778610043: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610044: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610169: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610169: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610169: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610169: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610169: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610169: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610169: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O2007>
+-------------------------------------------------------
+1778610169: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778610169: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778610169: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610170: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610262: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610262: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610262: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610262: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610262: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610262: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610262: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <>
+-------------------------------------------------------
+1778610262: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778610262: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778610262: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610263: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610278: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610278: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610278: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610278: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610278: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610278: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610278: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O0>
+-------------------------------------------------------
+1778610278: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778610278: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778610278: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610279: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610296: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610296: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610296: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610296: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610296: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610296: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610299: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778610299: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778610299: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610299: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778610299: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610300: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610300: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610300: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610300: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610300: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610300: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610300: 
+-------------------------------------------------------
+<== Mensaje (1 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778610300: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778610300: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778610300: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610301: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610393: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610393: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610393: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610393: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610393: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610393: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610393: 
+-------------------------------------------------------
+<== Mensaje (1 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778610393: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778610393: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778610393: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610394: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610423: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610423: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610423: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610423: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610423: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610423: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610423: 
+-------------------------------------------------------
+<== Mensaje (1 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778610423: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778610423: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778610423: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610424: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610558: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610558: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610558: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610558: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610558: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610558: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610558: 
+-------------------------------------------------------
+<== Mensaje (1 bytes) recibido desde 127.0.0.1
+RX (5): <H>
+-------------------------------------------------------
+1778610558: 
+-------------------------------------------------------
+Recibida una respuesta no adecuada.
+
+-------------------------------------------------------
+1778610558: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778610558: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610559: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610577: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610577: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610577: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610577: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610577: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610577: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610577: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778610577: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <831>.
+********************************************[0m
+1778610577: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778610577: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610578: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778610755: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778610755: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778610755: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778610755: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778610755: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778610755: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778610755: 
+-------------------------------------------------------
+<== Mensaje (5 bytes) recibido desde 127.0.0.1
+RX (5): <O>
+-------------------------------------------------------
+1778610755: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778610755: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778610756: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778611514: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778611514: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778611514: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778611514: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778611514: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778611564: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778611564: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778611564: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778611564: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778611564: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778611568: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778611568: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778611568: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778611568: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778611568: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778611568: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778611571: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778611571: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778611571: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778611571: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778611571: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778611572: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778611572: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778611572: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778611572: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778611572: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778611684: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778611684: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778611684: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778611684: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778611684: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778611684: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778611687: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778611687: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778611687: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778611687: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778611687: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778611762: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778611762: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778611762: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778611762: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778611762: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778611765: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778611765: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-10/.n_cliente>
+1778611765: 
+-------------------------------------------------------
+==> Intentando conectar en 127.0.0.1:3010
+1778611765: ==> Socket (5) correctamente inicializado en  127.0.0.1:3010
+-------------------------------------------------------
+1778611765: 
+-------------------------------------------------------
+==> Mensaje (20 bytes) enviado al cliente en 127.0.0.1
+TX (5): <H>
+-------------------------------------------------------
+1778611765: 
+-------------------------------------------------------
+==> Esperando 3 segundos a recibir mensaje.
+
+-------------------------------------------------------
+1778611768: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778611768: 
+------------------------------------------
+AGOTADA temporización de recepción de datos.
+------------------------------------------
+1778611768: Cerrando socket (5)  con 127.0.0.1 por el MONITOR
+1778611768: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778611768: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778611829: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778611829: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778611829: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778611829: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778611829: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778611858: COMMAND <cp ./examen10 /tmp/.examen10>
+1778611858: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778611858: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778611858: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778611858: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778611858: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778611858: 
+La máquina está ya identificada.
+1778611858: RX: <OK Accepted>
+1778611858: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778611858: RX: <OK>
+1778611858: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778611858: TX: <UUID XH8zKQFQKcd3PRTk>
+1778611858: RX: <REGISTERED>
+1778611858: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778611858: COMMAND <cp ./client.? .trazas-10>
+1778611858: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778611858: COMMAND <which pftp 2>&1 > /dev/null>
+1778611858: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-18h50\n" | ftp 2>&1 > /dev/null>
+1778611858: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778611860: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778611860: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778611860: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778611860: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778611860: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778611991: COMMAND <cp ./examen10 /tmp/.examen10>
+1778611991: COMMAND <cp -f /tmp/.examen10 ./examen10>
+1778611991: COMMAND <uname -a >> .trazas-10/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778611991: COMMAND <ifconfig 2>&1 >> .trazas-10/alumno-25203218W>
+1778611991: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-10/alumno-25203218W>
+MACHINE-ID: 1778611991: COMMAND <cat /etc/machine-id >> .trazas-10/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778611991: 
+La máquina está ya identificada.
+1778611991: RX: <OK Accepted>
+1778611994: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778611994: RX: <OK>
+1778611994: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778611994: TX: <UUID XH8zKQFQKcd3PRTk>
+1778611994: RX: <REGISTERED>
+1778611994: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-10" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778611994: COMMAND <cp ./client.? .trazas-10>
+1778611994: COMMAND <tar zcf save_file-25203218W .trazas-10 > /dev/null>
+1778611994: COMMAND <which pftp 2>&1 > /dev/null>
+1778611994: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-10\nput save_file-25203218W 25203218W-12-5-18h53\n" | ftp 2>&1 > /dev/null>
+1778611995: COMMAND <test -f .trazas-10/.clean_bck.tz && rm .trazas-10/.clean_bck.tz>
+1778611996: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778611996: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       1                       
+
+1778611996: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778611996: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778611996: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778612011: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778612011: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       1                       
+
+1778612011: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778612011: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778612011: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778612015: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778612015: COMMAND <ipcs -m >> .trazas-10/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       1                       
+
+1778612015: 
+-------------------------------------------------------
+No se puede acceder al segmento de memoria compartida con clave <0x25203218>.
+-------------------------------------------------------
+1778612015: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778612015: COMMAND <who >> .trazas-10/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)

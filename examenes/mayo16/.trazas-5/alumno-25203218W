@@ -1,0 +1,775 @@
+1778604483: COMMAND <cp ./examen5 /tmp/.examen5>
+1778604483: COMMAND <cp -f /tmp/.examen5 ./examen5>
+1778604483: COMMAND <uname -a >> .trazas-5/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778604483: COMMAND <ifconfig 2>&1 >> .trazas-5/alumno-25203218W>
+1778604483: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-5/alumno-25203218W>
+MACHINE-ID: 1778604483: COMMAND <cat /etc/machine-id >> .trazas-5/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778604483: 
+La máquina está ya identificada.
+1778604483: RX: <OK Accepted>
+1778604485: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778604485: RX: <NEW>
+1778604485: 
+***************************************************
+El usuario no tiene un password público registrado.
+Por favor, confirme el password para darlo de alta.
+[5mEl password debe recordarlo para futuras sesiones.[0m
+Utilice una secuencia de caracteres personal privados.
+En el servidor se guardará una versión encriptada.
+Si no está de acuerdo con el password que ha utilizado
+interrumpa el proceso y comience de nuevo el registro.
+Posteriormente será más complicado modificarlo. Tendrá.
+que ponerse en contacto con el administrador:
+                 armando.ferro@ehu.eus
+***************************************************
+1778604489: TX: <CREATEPWD q9cTc6l6lddTBG>
+1778604489: [5m
+LOGIN: Registrado password público <q9cTc6l6lddTBG>.[0m
+1778604489: RX: <DONE>
+1778604489: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778604489: TX: <UUID XH8zKQFQKcd3PRTk>
+1778604489: RX: <REGISTERED>
+1778604489: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-5" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778604489: COMMAND <cp ./client.? .trazas-5>
+1778604489: COMMAND <tar zcf save_file-25203218W .trazas-5 > /dev/null>
+1778604489: COMMAND <which pftp 2>&1 > /dev/null>
+1778604489: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-5\nput save_file-25203218W 25203218W-12-5-16h48\n" | ftp 2>&1 > /dev/null>
+1778604490: COMMAND <test -f .trazas-5/.clean_bck.tz && rm .trazas-5/.clean_bck.tz>
+1778604495: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778604495: COMMAND <ipcs -m >> .trazas-5/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778605076: COMMAND <cp ./examen5 /tmp/.examen5>
+1778605076: COMMAND <cp -f /tmp/.examen5 ./examen5>
+1778605076: COMMAND <uname -a >> .trazas-5/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778605076: COMMAND <ifconfig 2>&1 >> .trazas-5/alumno-25203218W>
+1778605076: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-5/alumno-25203218W>
+MACHINE-ID: 1778605076: COMMAND <cat /etc/machine-id >> .trazas-5/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778605076: 
+La máquina está ya identificada.
+1778605076: RX: <OK Accepted>
+1778605076: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778605076: RX: <OK>
+1778605076: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778605076: TX: <UUID XH8zKQFQKcd3PRTk>
+1778605076: RX: <REGISTERED>
+1778605076: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-5" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778605076: COMMAND <cp ./client.? .trazas-5>
+1778605076: COMMAND <tar zcf save_file-25203218W .trazas-5 > /dev/null>
+1778605076: COMMAND <which pftp 2>&1 > /dev/null>
+1778605076: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-5\nput save_file-25203218W 25203218W-12-5-16h57\n" | ftp 2>&1 > /dev/null>
+1778605076: COMMAND <test -f .trazas-5/.clean_bck.tz && rm .trazas-5/.clean_bck.tz>
+1778605078: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778605078: COMMAND <ipcs -m >> .trazas-5/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778605078: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x25203218
+-------------------------------------------------------
+1778605078: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778605080: 
+-----------------------------------------------
+RX(dev=127.0.0.1:38527):
+<HELLO 20980 Equipo>
+-----------------------------------------------
+1778605081: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <977>.
+********************************************[0m
+1778605081: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778605081: 
+-------------------------------------------------------
+Proceso <20980> no está disponible
+
+-------------------------------------------------------
+1778605081: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:38527)
+<ERR Process not active
+>
+
+-------------------------------------------------------
+1778605081: 
+-------------------------------------------------------
+FINALIZADA una sesión. Pendiente 0 sesion(es)
+
+-------------------------------------------------------
+1778605081: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778605081: COMMAND <who >> .trazas-5/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778605133: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778605133: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778605134: 
+-----------------------------------------------
+RX(dev=127.0.0.1:39742):
+<HELLO 21100 Equipo>
+-----------------------------------------------
+1778605135: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778605219: COMMAND <cp ./examen5 /tmp/.examen5>
+1778605219: COMMAND <cp -f /tmp/.examen5 ./examen5>
+1778605219: COMMAND <uname -a >> .trazas-5/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778605219: COMMAND <ifconfig 2>&1 >> .trazas-5/alumno-25203218W>
+1778605219: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-5/alumno-25203218W>
+MACHINE-ID: 1778605219: COMMAND <cat /etc/machine-id >> .trazas-5/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778605219: 
+La máquina está ya identificada.
+1778605219: RX: <OK Accepted>
+1778605219: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778605219: RX: <OK>
+1778605219: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778605219: TX: <UUID XH8zKQFQKcd3PRTk>
+1778605219: RX: <REGISTERED>
+1778605219: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-5" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778605219: COMMAND <cp ./client.? .trazas-5>
+1778605219: COMMAND <tar zcf save_file-25203218W .trazas-5 > /dev/null>
+1778605219: COMMAND <which pftp 2>&1 > /dev/null>
+1778605219: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-5\nput save_file-25203218W 25203218W-12-5-17h00\n" | ftp 2>&1 > /dev/null>
+1778605220: COMMAND <test -f .trazas-5/.clean_bck.tz && rm .trazas-5/.clean_bck.tz>
+1778605222: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778605222: COMMAND <ipcs -m >> .trazas-5/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778605222: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x25203218
+-------------------------------------------------------
+1778605222: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778605222: 
+-----------------------------------------------
+RX(dev=127.0.0.1:34936):
+<HELLO 21304 Equipo>
+-----------------------------------------------
+1778605223: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <977>.
+********************************************[0m
+1778605223: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778605257: COMMAND <cp ./examen5 /tmp/.examen5>
+1778605257: COMMAND <cp -f /tmp/.examen5 ./examen5>
+1778605257: COMMAND <uname -a >> .trazas-5/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778605257: COMMAND <ifconfig 2>&1 >> .trazas-5/alumno-25203218W>
+1778605257: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-5/alumno-25203218W>
+MACHINE-ID: 1778605257: COMMAND <cat /etc/machine-id >> .trazas-5/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778605257: 
+La máquina está ya identificada.
+1778605257: RX: <OK Accepted>
+1778605257: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778605257: RX: <OK>
+1778605257: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778605257: TX: <UUID XH8zKQFQKcd3PRTk>
+1778605257: RX: <REGISTERED>
+1778605257: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-5" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778605258: COMMAND <cp ./client.? .trazas-5>
+1778605258: COMMAND <tar zcf save_file-25203218W .trazas-5 > /dev/null>
+1778605258: COMMAND <which pftp 2>&1 > /dev/null>
+1778605258: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-5\nput save_file-25203218W 25203218W-12-5-17h00\n" | ftp 2>&1 > /dev/null>
+1778605258: COMMAND <test -f .trazas-5/.clean_bck.tz && rm .trazas-5/.clean_bck.tz>
+1778605260: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778605260: COMMAND <ipcs -m >> .trazas-5/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778605260: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x25203218
+-------------------------------------------------------
+1778605260: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778605261: 
+-----------------------------------------------
+RX(dev=127.0.0.1:33157):
+<HELLO 21497 Equipo>
+-----------------------------------------------
+1778605262: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <977>.
+********************************************[0m
+1778605262: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778605262: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <2> es <930>.
+********************************************[0m
+1778605262: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:33157)
+<OK
+>
+
+-------------------------------------------------------
+1778605262: 
+-------------------------------------------------------
+Esperando comando <PORT> en dispositivo <>
+
+-------------------------------------------------------
+1778605262: 
+-----------------------------------------------
+RX(dev=127.0.0.1:33157):
+<PORT 33157>
+-----------------------------------------------
+1778605263: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <3> es <383>.
+********************************************[0m
+1778605263: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:33157)
+<OK
+>
+
+-------------------------------------------------------
+1778605263: 
+-------------------------------------------------------
+Esperando comando <BYE> en dispositivo <Equipo>
+
+-------------------------------------------------------
+1778605263: 
+-----------------------------------------------
+RX(dev=127.0.0.1:33157):
+<BYE>
+-----------------------------------------------
+1778605264: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778605264: 
+-----------------------------------------------
+Proceso 21497 todavía activo después de cierre
+
+-----------------------------------------------
+1778605264: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:33157)
+<OK
+>
+
+-------------------------------------------------------
+1778605264: 
+-------------------------------------------------------
+Alcanzado final de lista comandos en dispositivo <Equipo>
+
+-------------------------------------------------------
+1778605264: 
+-------------------------------------------------------
+FINALIZADA una sesión. Pendiente 0 sesion(es)
+
+-------------------------------------------------------
+1778605264: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778605264: COMMAND <who >> .trazas-5/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778605296: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778605296: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778605296: 
+-----------------------------------------------
+RX(dev=127.0.0.1:57868):
+<HELLO 21614 Equipo>
+-----------------------------------------------
+1778605297: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778605297: 
+-------------------------------------------------------
+Proceso <21614> no está disponible
+
+-------------------------------------------------------
+1778605297: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:57868)
+<ERR Process not active
+>
+
+-------------------------------------------------------
+1778605297: 
+-------------------------------------------------------
+FINALIZADA una sesión. Pendiente 0 sesion(es)
+
+-------------------------------------------------------
+1778605297: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778605297: COMMAND <who >> .trazas-5/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778605303: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778605303: 
+-------------------------------------------------------
+Borrados 2 mensajes pendientes del socket 
+
+-------------------------------------------------------
+1778605303: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778605304: 
+-----------------------------------------------
+RX(dev=127.0.0.1:57268):
+<HELLO 21697 Equipo>
+-----------------------------------------------
+1778605305: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778605305: 
+-------------------------------------------------------
+Proceso <21697> no está disponible
+
+-------------------------------------------------------
+1778605305: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:57268)
+<ERR Process not active
+>
+
+-------------------------------------------------------
+1778605305: 
+-------------------------------------------------------
+FINALIZADA una sesión. Pendiente 0 sesion(es)
+
+-------------------------------------------------------
+1778605305: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 1.
+
+*************************************************[0m
+1778605305: COMMAND <who >> .trazas-5/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778605331: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778605331: 
+-------------------------------------------------------
+Borrados 2 mensajes pendientes del socket 
+
+-------------------------------------------------------
+1778605331: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778605331: 
+-----------------------------------------------
+RX(dev=127.0.0.1:54310):
+<HELLO 21794 Equipo>
+-----------------------------------------------
+1778605332: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778605332: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:54310)
+<OK
+>
+
+-------------------------------------------------------
+1778605332: 
+-------------------------------------------------------
+Esperando comando <PORT> en dispositivo <>
+
+-------------------------------------------------------
+1778605332: 
+-----------------------------------------------
+RX(dev=127.0.0.1:54310):
+<PORT 54310>
+-----------------------------------------------
+1778605333: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:54310)
+<OK
+>
+
+-------------------------------------------------------
+1778605333: 
+-------------------------------------------------------
+Esperando comando <BYE> en dispositivo <Equipo>
+
+-------------------------------------------------------
+1778605333: 
+-----------------------------------------------
+RX(dev=127.0.0.1:54310):
+<BYE>
+-----------------------------------------------
+1778605334: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778605334: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <480>.
+********************************************[0m
+1778605334: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:54310)
+<OK
+>
+
+-------------------------------------------------------
+1778605334: 
+-------------------------------------------------------
+Alcanzado final de lista comandos en dispositivo <Equipo>
+
+-------------------------------------------------------
+1778605334: 
+-------------------------------------------------------
+FINALIZADA una sesión. Pendiente 0 sesion(es)
+
+-------------------------------------------------------
+1778605334: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778605334: COMMAND <who >> .trazas-5/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778606008: COMMAND <cp ./examen5 /tmp/.examen5>
+1778606008: COMMAND <cp -f /tmp/.examen5 ./examen5>
+1778606008: COMMAND <uname -a >> .trazas-5/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778606008: COMMAND <ifconfig 2>&1 >> .trazas-5/alumno-25203218W>
+1778606008: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-5/alumno-25203218W>
+MACHINE-ID: 1778606008: COMMAND <cat /etc/machine-id >> .trazas-5/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778606008: 
+La máquina está ya identificada.
+1778606008: RX: <OK Accepted>
+1778606008: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778606008: RX: <OK>
+1778606008: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778606008: TX: <UUID XH8zKQFQKcd3PRTk>
+1778606008: RX: <REGISTERED>
+1778606008: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-5" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778606008: COMMAND <cp ./client.? .trazas-5>
+1778606008: COMMAND <tar zcf save_file-25203218W .trazas-5 > /dev/null>
+1778606008: COMMAND <which pftp 2>&1 > /dev/null>
+1778606008: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-5\nput save_file-25203218W 25203218W-12-5-17h13\n" | ftp 2>&1 > /dev/null>
+1778606009: COMMAND <test -f .trazas-5/.clean_bck.tz && rm .trazas-5/.clean_bck.tz>
+1778606010: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778606010: COMMAND <ipcs -m >> .trazas-5/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778606010: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x25203218
+-------------------------------------------------------
+1778606010: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778606011: 
+-----------------------------------------------
+RX(dev=127.0.0.1:50852):
+<HELLO 22159 Equipo>
+-----------------------------------------------
+1778606012: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <977>.
+********************************************[0m
+1778606012: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778606012: 
+-------------------------------------------------------
+Proceso <22159> no está disponible
+
+-------------------------------------------------------
+1778606012: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:50852)
+<ERR Process not active
+>
+
+-------------------------------------------------------
+1778606012: 
+-------------------------------------------------------
+FINALIZADA una sesión. Pendiente 1 sesion(es)
+
+-------------------------------------------------------
+1778606012: 
+-----------------------------------------------
+RX(dev=127.0.0.1:50852):
+<PORT 50852>
+-----------------------------------------------
+1778606013: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:50852)
+<ERR Command PORT not expected
+>
+
+-------------------------------------------------------
+1778606013: 
+-------------------------------------------------------
+FINALIZADA una sesión. Pendiente 0 sesion(es)
+
+-------------------------------------------------------
+1778606013: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778606013: COMMAND <who >> .trazas-5/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778606018: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778606018: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778606018: 
+-----------------------------------------------
+RX(dev=127.0.0.1:40995):
+<HELLO 22234 Equipo>
+-----------------------------------------------
+1778606019: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778606019: 
+-------------------------------------------------------
+Proceso <22234> no está disponible
+
+-------------------------------------------------------
+1778606019: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:40995)
+<ERR Process not active
+>
+
+-------------------------------------------------------
+1778606019: 
+-------------------------------------------------------
+FINALIZADA una sesión. Pendiente 1 sesion(es)
+
+-------------------------------------------------------
+1778606019: 
+-----------------------------------------------
+RX(dev=127.0.0.1:40995):
+<PORT 40995>
+-----------------------------------------------
+1778606020: 
+-------------------------------------------------------
+TX (dev=127.0.0.1:40995)
+<ERR Command PORT not expected
+>
+
+-------------------------------------------------------
+1778606020: 
+-------------------------------------------------------
+FINALIZADA una sesión. Pendiente 0 sesion(es)
+
+-------------------------------------------------------
+1778606020: 
+[5m*************************************************
+:nok> No se ha realizado correctamente el ejercicio 2.
+
+*************************************************[0m
+1778606020: COMMAND <who >> .trazas-5/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778606294: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778606294: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778606309: 
+-------------------------------------------------------
+FINALIZADA una sesión. Pendiente 1 sesion(es)
+
+-------------------------------------------------------
+1778606317: 
+-----------------------------------------------
+RX(dev=127.0.0.1:40468):
+<HELLO 22656 Equipo>
+-----------------------------------------------
+1778606318: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>
+1778606328: COMMAND <cp ./examen5 /tmp/.examen5>
+1778606328: COMMAND <cp -f /tmp/.examen5 ./examen5>
+1778606328: COMMAND <uname -a >> .trazas-5/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778606328: COMMAND <ifconfig 2>&1 >> .trazas-5/alumno-25203218W>
+1778606328: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-5/alumno-25203218W>
+MACHINE-ID: 1778606328: COMMAND <cat /etc/machine-id >> .trazas-5/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778606328: 
+La máquina está ya identificada.
+1778606328: RX: <OK Accepted>
+1778606328: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778606328: RX: <OK>
+1778606328: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778606328: TX: <UUID XH8zKQFQKcd3PRTk>
+1778606328: RX: <REGISTERED>
+1778606328: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-5" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778606328: COMMAND <cp ./client.? .trazas-5>
+1778606328: COMMAND <tar zcf save_file-25203218W .trazas-5 > /dev/null>
+1778606328: COMMAND <which pftp 2>&1 > /dev/null>
+1778606328: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-5\nput save_file-25203218W 25203218W-12-5-17h18\n" | ftp 2>&1 > /dev/null>
+1778606329: COMMAND <test -f .trazas-5/.clean_bck.tz && rm .trazas-5/.clean_bck.tz>
+1778606332: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778606332: COMMAND <ipcs -m >> .trazas-5/alumno-25203218W 2>&1>
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x25203218 21         root       666        1024       0                       
+
+1778606332: 
+-------------------------------------------------------
+Existe YA un segmento de memoria compartida con clave 0x25203218
+-------------------------------------------------------
+1778606332: 
+-----------------------------------------------
+Inicialización de recursos realizada correctamente.
+-----------------------------------------------
+1778606332: 
+-----------------------------------------------
+RX(dev=127.0.0.1:45743):
+<HELLO 22811 Equipo>
+-----------------------------------------------
+1778606333: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <977>.
+********************************************[0m
+1778606333: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-5/.n_cliente>

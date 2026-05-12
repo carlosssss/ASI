@@ -18,7 +18,7 @@
 #define SERVER_PORT 3010
 #define SERVERIP "127.0.0.1"
 
-#define CLAVE 0x25203218L	// Clave de los recursos. Sustituir por DNI.
+#define CLAVE 0x25203218	// Clave de los recursos. Sustituir por DNI.
 
 #define SIZE_SHM 4096		// Tamaño del segmento de memoria compartida
 

@@ -1,0 +1,2666 @@
+1778598760: COMMAND <cp ./examen11 /tmp/.examen11>
+1778598760: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778598760: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778598760: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778598760: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778598760: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778598760: 
+La máquina está ya identificada.
+1778598760: RX: <OK Accepted>
+1778598762: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778598762: RX: <NEW>
+1778598762: 
+***************************************************
+El usuario no tiene un password público registrado.
+Por favor, confirme el password para darlo de alta.
+[5mEl password debe recordarlo para futuras sesiones.[0m
+Utilice una secuencia de caracteres personal privados.
+En el servidor se guardará una versión encriptada.
+Si no está de acuerdo con el password que ha utilizado
+interrumpa el proceso y comience de nuevo el registro.
+Posteriormente será más complicado modificarlo. Tendrá.
+que ponerse en contacto con el administrador:
+                 armando.ferro@ehu.eus
+***************************************************
+1778598765: TX: <CREATEPWD q9cTc6l6lddTBG>
+1778598765: [5m
+LOGIN: Registrado password público <q9cTc6l6lddTBG>.[0m
+1778598765: RX: <DONE>
+1778598765: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778598765: TX: <UUID XH8zKQFQKcd3PRTk>
+1778598765: RX: <REGISTERED>
+1778598765: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778598765: COMMAND <cp ./client.? .trazas-11>
+1778598765: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778598765: COMMAND <which pftp 2>&1 > /dev/null>
+1778598765: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h12\n" | ftp 2>&1 > /dev/null>
+1778598766: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778599066: INTENTO DE CONEXION DIA:12 MES:5 HORA:15:17m.
+1778599066: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778599066: COMMAND <cp ./client.? .trazas-11>
+1778599066: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778599066: COMMAND <which pftp 2>&1 > /dev/null>
+1778599066: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h17\n" | ftp 2>&1 > /dev/null>
+1778599066: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778599366: INTENTO DE CONEXION DIA:12 MES:5 HORA:15:22m.
+1778599366: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778599366: COMMAND <cp ./client.? .trazas-11>
+1778599366: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778599366: COMMAND <which pftp 2>&1 > /dev/null>
+1778599366: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h22\n" | ftp 2>&1 > /dev/null>
+1778599366: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778599666: INTENTO DE CONEXION DIA:12 MES:5 HORA:15:27m.
+1778599666: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778599666: COMMAND <cp ./client.? .trazas-11>
+1778599666: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778599666: COMMAND <which pftp 2>&1 > /dev/null>
+1778599666: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h27\n" | ftp 2>&1 > /dev/null>
+1778599666: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778599966: INTENTO DE CONEXION DIA:12 MES:5 HORA:15:32m.
+1778599966: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778599966: COMMAND <cp ./client.? .trazas-11>
+1778599966: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778599966: COMMAND <which pftp 2>&1 > /dev/null>
+1778599966: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h32\n" | ftp 2>&1 > /dev/null>
+1778599966: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778599982: COMMAND <cp ./examen11 /tmp/.examen11>
+1778599982: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778599982: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778599982: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778599982: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778599982: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778599982: 
+La máquina está ya identificada.
+1778599982: RX: <OK Accepted>
+1778599982: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778599982: RX: <OK>
+1778599982: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778599982: TX: <UUID XH8zKQFQKcd3PRTk>
+1778599982: RX: <REGISTERED>
+1778599982: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778599982: COMMAND <cp ./client.? .trazas-11>
+1778599982: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778599982: COMMAND <which pftp 2>&1 > /dev/null>
+1778599982: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h33\n" | ftp 2>&1 > /dev/null>
+1778599983: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778599988: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778599988: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       11820  0.0  0.1   2664  1908 pts/3    S+   15:33   0:00 ./examen11
+root       11875  0.0  0.1   2556  1340 pts/7    S+   15:33   0:00 ./client 10617
+root       11906  0.0  0.1   2676  1720 pts/3    S+   15:33   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       11907  0.0  0.3   9388  3936 pts/3    R+   15:33   0:00 ps u
+1778599988: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778599988: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778599988: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778599988: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778599988: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778599988: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778599988: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778599988: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778599988: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778599988: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778599988: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778599988: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778599988: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778599988: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778599988: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778599992: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778599992: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       11820  0.0  0.1  35452  1908 pts/3    Sl+  15:33   0:00 ./examen11
+root       11875  0.0  0.1   2556  1340 pts/7    S+   15:33   0:00 ./client 10617
+root       11975  0.0  0.1   2676  1556 pts/3    S+   15:33   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       11976  0.0  0.3   9388  3960 pts/3    R+   15:33   0:00 ps u
+1778599992: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778599992: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778599992: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778599992: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778599992: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778599992: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778599992: 
+-------------------------------------------------------
+Error en la apertura del FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778599992: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778599992: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778599992: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778599992: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778599992: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778599992: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778599992: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778599992: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778599992: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778599997: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778599997: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss+  15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       11820  0.0  0.1  68236  1908 pts/3    Sl+  15:33   0:00 ./examen11
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12040  0.0  0.1   2676  1528 pts/3    S+   15:33   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       12041  0.0  0.3   9388  4000 pts/3    R+   15:33   0:00 ps u
+1778599997: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778599997: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778599997: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778599997: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778599997: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778599997: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778599997: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778599997: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778599997: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778599997: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778599997: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778599997: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778599997: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778599997: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778599997: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778600094: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600094: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       11820  0.0  0.1 101020  1908 pts/3    Sl+  15:33   0:00 ./examen11
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12143  0.0  0.1   2556  1316 pts/7    S+   15:34   0:00 ./client 10617
+root       12163  0.0  0.1   2676  1572 pts/3    S+   15:34   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       12164  0.0  0.3   9388  4008 pts/3    R+   15:34   0:00 ps u
+1778600094: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600094: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (1)
+-------------------------------------------------------
+1778600094: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1778600094: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600116: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600116: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss+  15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       11820  0.0  0.1 101020  1908 pts/3    Sl+  15:33   0:00 ./examen11
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12238  0.0  0.1   2676  1572 pts/3    S+   15:35   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       12239  0.0  0.3   9388  4024 pts/3    R+   15:35   0:00 ps u
+1778600116: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600116: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (1)
+-------------------------------------------------------
+1778600116: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1778600116: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600123: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778600123: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600123: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (4)
+-------------------------------------------------------
+1778600123: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778600123: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600126: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600126: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss+  15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       11820  0.0  0.1 101020  1908 pts/3    Sl+  15:33   0:00 ./examen11
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12308  0.0  0.1   2676  1556 pts/3    S+   15:35   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       12309  0.0  0.3   9388  3896 pts/3    R+   15:35   0:00 ps u
+1778600126: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600126: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (1)
+-------------------------------------------------------
+1778600126: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1778600126: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600129: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778600129: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600129: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (4)
+-------------------------------------------------------
+1778600129: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778600129: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600135: COMMAND <cp ./examen11 /tmp/.examen11>
+1778600135: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778600135: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778600135: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778600135: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778600135: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778600135: 
+La máquina está ya identificada.
+1778600135: RX: <OK Accepted>
+1778600135: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778600135: RX: <OK>
+1778600135: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778600135: TX: <UUID XH8zKQFQKcd3PRTk>
+1778600135: RX: <REGISTERED>
+1778600135: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778600135: COMMAND <cp ./client.? .trazas-11>
+1778600135: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778600135: COMMAND <which pftp 2>&1 > /dev/null>
+1778600135: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h35\n" | ftp 2>&1 > /dev/null>
+1778600135: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778600137: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600137: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss+  15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12387  0.0  0.1   2664  2028 pts/3    S+   15:35   0:00 ./examen11
+root       12432  0.0  0.1   2676  1528 pts/3    S+   15:35   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       12433  0.0  0.3   9388  3892 pts/3    R+   15:35   0:00 ps u
+1778600137: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600137: 
+-------------------------------------------------------
+Número de procesos cliente (0) inadecuado. Debe ser (1)
+-------------------------------------------------------
+1778600137: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1778600137: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600151: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600151: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12387  0.0  0.1   2664  2028 pts/3    S+   15:35   0:00 ./examen11
+root       12525  0.0  0.1   2556  1356 pts/7    S+   15:35   0:00 ./client 12387
+root       12558  0.0  0.1   2676  1480 pts/3    S+   15:35   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       12559  0.0  0.3   9388  4012 pts/3    R+   15:35   0:00 ps u
+1778600151: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600151: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778600151: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600151: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778600151: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778600151: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778600151: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600151: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778600151: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778600151: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600151: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778600151: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778600151: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600151: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778600151: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778600158: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600158: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss+  15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12387  0.0  0.1  35452  2028 pts/3    Sl+  15:35   0:00 ./examen11
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       12631  0.0  0.1   2676  1732 pts/3    S+   15:35   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       12632  0.0  0.3   9388  3944 pts/3    R+   15:35   0:00 ps u
+1778600158: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600158: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778600158: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600158: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778600158: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778600158: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778600158: 
+-------------------------------------------------------
+Error en la apertura del FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600158: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600158: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778600158: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778600158: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600158: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778600158: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778600158: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600158: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778600158: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778600245: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600245: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12387  0.0  0.1  68236  2028 pts/3    Sl+  15:35   0:00 ./examen11
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       12717  0.0  0.1   2556  1340 pts/7    S+   15:37   0:00 ./client 12387
+root       12737  0.0  0.1   2676  1732 pts/3    S+   15:37   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       12738  0.0  0.3   9388  4000 pts/3    R+   15:37   0:00 ps u
+1778600245: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600245: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (1)
+-------------------------------------------------------
+1778600245: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1778600245: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600248: COMMAND <cp ./examen11 /tmp/.examen11>
+1778600248: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778600248: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778600248: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778600248: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778600248: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778600248: 
+La máquina está ya identificada.
+1778600248: RX: <OK Accepted>
+1778600248: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778600248: RX: <OK>
+1778600248: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778600248: TX: <UUID XH8zKQFQKcd3PRTk>
+1778600248: RX: <REGISTERED>
+1778600248: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778600248: COMMAND <cp ./client.? .trazas-11>
+1778600248: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778600248: COMMAND <which pftp 2>&1 > /dev/null>
+1778600248: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h37\n" | ftp 2>&1 > /dev/null>
+1778600249: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778600257: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600257: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       12793  0.0  0.1   2664  1964 pts/3    S+   15:37   0:00 ./examen11
+root       12864  0.0  0.1   2556  1340 pts/7    S+   15:37   0:00 ./client 12793
+root       12905  0.0  0.1   2676  1588 pts/3    S+   15:37   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       12907  0.0  0.4   9388  4232 pts/3    R+   15:37   0:00 ps u
+1778600257: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600257: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778600257: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600257: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778600257: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778600257: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778600257: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600257: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778600257: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778600257: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600257: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778600257: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778600257: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600257: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778600257: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778600262: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600262: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       12793  0.0  0.1  35452  1964 pts/3    Sl+  15:37   0:00 ./examen11
+root       12864  0.0  0.1   2556  1532 pts/7    S+   15:37   0:00 ./client 12793
+root       12959  0.0  0.0   2556   612 pts/7    S+   15:37   0:00 ./client 12793
+root       12976  0.0  0.1   2676  1572 pts/3    S+   15:37   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       12977  0.0  0.3   9388  4064 pts/3    R+   15:37   0:00 ps u
+1778600262: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600262: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (1)
+-------------------------------------------------------
+1778600262: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1778600262: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600274: COMMAND <cp ./examen11 /tmp/.examen11>
+1778600274: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778600274: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778600274: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778600274: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778600274: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778600274: 
+La máquina está ya identificada.
+1778600274: RX: <OK Accepted>
+1778600274: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778600274: RX: <OK>
+1778600274: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778600274: TX: <UUID XH8zKQFQKcd3PRTk>
+1778600274: RX: <REGISTERED>
+1778600274: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778600274: COMMAND <cp ./client.? .trazas-11>
+1778600274: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778600274: COMMAND <which pftp 2>&1 > /dev/null>
+1778600274: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h37\n" | ftp 2>&1 > /dev/null>
+1778600275: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778600282: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600282: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       13077  0.0  0.1   2664  1956 pts/3    S+   15:37   0:00 ./examen11
+root       13159  0.0  0.1   2556  1360 pts/7    S+   15:37   0:00 ./client 12793
+root       13179  0.0  0.1   2676  1732 pts/3    S+   15:38   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       13180  0.0  0.3   9388  4032 pts/3    R+   15:38   0:00 ps u
+1778600282: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600282: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778600282: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600282: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778600282: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778600282: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778600282: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600282: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778600282: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778600282: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600282: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778600282: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778600282: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778600282: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600282: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778600295: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600295: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       13077  0.0  0.1  35452  1956 pts/3    Sl+  15:37   0:00 ./examen11
+root       13159  0.0  0.1   2556  1360 pts/7    S+   15:37   0:00 ./client 12793
+root       13232  0.0  0.1   2676  1728 pts/3    S+   15:38   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       13233  0.0  0.3   9388  4012 pts/3    R+   15:38   0:00 ps u
+1778600295: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600295: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778600295: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600295: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778600295: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778600295: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778600295: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600295: 
+-------------------------------------------------------
+Error en la apertura del FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600295: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778600295: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778600295: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600295: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778600295: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778600295: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778600295: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600295: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778600299: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600299: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       13077  0.0  0.1  68236  1956 pts/3    Sl+  15:37   0:00 ./examen11
+root       13159  0.0  0.1   2556  1360 pts/7    S+   15:37   0:00 ./client 12793
+root       13271  0.0  0.0   2556   612 pts/7    S+   15:38   0:00 ./client 12793
+root       13290  0.0  0.1   2676  1520 pts/3    S+   15:38   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       13291  0.0  0.3   9388  4156 pts/3    R+   15:38   0:00 ps u
+1778600300: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600300: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (1)
+-------------------------------------------------------
+1778600300: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1778600300: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600339: COMMAND <cp ./examen11 /tmp/.examen11>
+1778600339: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778600339: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778600339: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778600339: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778600339: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778600339: 
+La máquina está ya identificada.
+1778600339: RX: <OK Accepted>
+1778600339: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778600339: RX: <OK>
+1778600339: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778600339: TX: <UUID XH8zKQFQKcd3PRTk>
+1778600339: RX: <REGISTERED>
+1778600339: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778600339: COMMAND <cp ./client.? .trazas-11>
+1778600339: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778600339: COMMAND <which pftp 2>&1 > /dev/null>
+1778600339: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h38\n" | ftp 2>&1 > /dev/null>
+1778600339: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778600405: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600405: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       13348  0.0  0.1   2664  1952 pts/3    S+   15:38   0:00 ./examen11
+root       13443  0.0  0.1   2556  1360 pts/7    S+   15:39   0:00 ./client 13348
+root       13482  0.0  0.1   2676  1588 pts/3    S+   15:40   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       13483  0.0  0.3   9388  4000 pts/3    R+   15:40   0:00 ps u
+1778600405: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600405: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778600405: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600405: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778600405: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778600405: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778600405: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600405: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778600405: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778600405: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600405: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778600405: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778600405: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600448: COMMAND <cp ./examen11 /tmp/.examen11>
+1778600448: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778600448: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778600448: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778600448: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778600448: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778600448: 
+La máquina está ya identificada.
+1778600448: RX: <OK Accepted>
+1778600448: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778600448: RX: <OK>
+1778600448: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778600448: TX: <UUID XH8zKQFQKcd3PRTk>
+1778600448: RX: <REGISTERED>
+1778600448: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778600448: COMMAND <cp ./client.? .trazas-11>
+1778600448: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778600448: COMMAND <which pftp 2>&1 > /dev/null>
+1778600448: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h40\n" | ftp 2>&1 > /dev/null>
+1778600449: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778600459: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600459: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       13592  0.0  0.1   2664  1720 pts/3    S+   15:40   0:00 ./examen11
+root       13698  0.0  0.1   2556  1372 pts/7    S+   15:40   0:00 ./client 13592
+root       13718  0.0  0.1   2676  1476 pts/3    S+   15:40   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       13719  0.0  0.3   9388  4064 pts/3    R+   15:40   0:00 ps u
+1778600459: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600459: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778600459: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600459: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778600459: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778600459: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778600459: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600459: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778600459: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778600459: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600459: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778600459: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778600459: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600520: COMMAND <cp ./examen11 /tmp/.examen11>
+1778600520: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778600521: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778600521: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778600521: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778600521: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778600521: 
+La máquina está ya identificada.
+1778600521: RX: <OK Accepted>
+1778600521: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778600521: RX: <OK>
+1778600521: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778600521: TX: <UUID XH8zKQFQKcd3PRTk>
+1778600521: RX: <REGISTERED>
+1778600521: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778600521: COMMAND <cp ./client.? .trazas-11>
+1778600521: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778600521: COMMAND <which pftp 2>&1 > /dev/null>
+1778600521: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h42\n" | ftp 2>&1 > /dev/null>
+1778600521: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778600529: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600529: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       13904  0.0  0.1   2664  1964 pts/3    S+   15:42   0:00 ./examen11
+root       13971  0.0  0.1   2556  1544 pts/7    S+   15:42   0:00 ./client 13904
+root       14006  0.0  0.1   2676  1588 pts/3    S+   15:42   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       14008  0.0  0.3   9388  3944 pts/3    R+   15:42   0:00 ps u
+1778600529: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600529: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778600529: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600529: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778600529: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778600529: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778600529: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600529: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778600529: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778600529: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600529: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778600529: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778600529: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600751: COMMAND <cp ./examen11 /tmp/.examen11>
+1778600751: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778600751: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778600751: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778600751: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778600751: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778600751: 
+La máquina está ya identificada.
+1778600751: RX: <OK Accepted>
+1778600751: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778600751: RX: <OK>
+1778600751: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778600751: TX: <UUID XH8zKQFQKcd3PRTk>
+1778600751: RX: <REGISTERED>
+1778600751: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778600751: COMMAND <cp ./client.? .trazas-11>
+1778600751: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778600751: COMMAND <which pftp 2>&1 > /dev/null>
+1778600751: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h45\n" | ftp 2>&1 > /dev/null>
+1778600752: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778600761: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600761: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       14437  0.0  0.1   2664  1948 pts/3    S+   15:45   0:00 ./examen11
+root       14517  0.0  0.1   2556  1340 pts/7    S+   15:45   0:00 ./client 14437
+root       14542  0.0  0.1   2676  1528 pts/3    S+   15:46   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       14543  0.0  0.3   9388  4064 pts/3    R+   15:46   0:00 ps u
+1778600761: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600761: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778600761: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600761: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778600761: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778600761: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778600761: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600761: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778600761: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778600761: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600761: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778600761: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778600761: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600761: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778600761: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778600762: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600779: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600782: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600782: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       14437  0.0  0.1  35452  1948 pts/3    Sl+  15:45   0:00 ./examen11
+root       14517  0.0  0.1   2556  1532 pts/7    S+   15:45   0:00 ./client 14437
+root       14577  0.0  0.0   2556   588 pts/7    S+   15:46   0:00 ./client 14437
+root       14698  0.0  0.1   2676  1756 pts/3    S+   15:46   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       14700  0.0  0.3   9388  4156 pts/3    R+   15:46   0:00 ps u
+1778600782: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600782: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (1)
+-------------------------------------------------------
+1778600782: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1778600782: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600922: COMMAND <cp ./examen11 /tmp/.examen11>
+1778600922: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778600922: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778600922: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778600922: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778600922: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778600922: 
+La máquina está ya identificada.
+1778600922: RX: <OK Accepted>
+1778600922: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778600922: RX: <OK>
+1778600922: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778600922: TX: <UUID XH8zKQFQKcd3PRTk>
+1778600922: RX: <REGISTERED>
+1778600922: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778600922: COMMAND <cp ./client.? .trazas-11>
+1778600922: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778600922: COMMAND <which pftp 2>&1 > /dev/null>
+1778600922: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h48\n" | ftp 2>&1 > /dev/null>
+1778600923: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778600931: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778600931: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       14894  0.0  0.1   2664  1720 pts/3    S+   15:48   0:00 ./examen11
+root       14976  0.0  0.1   2556  1500 pts/7    S+   15:48   0:00 ./client 14894
+root       14996  0.0  0.1   2676  1588 pts/3    S+   15:48   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       14997  0.0  0.3   9388  4028 pts/3    R+   15:48   0:00 ps u
+1778600931: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778600931: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778600931: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600931: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778600931: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778600931: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778600931: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600931: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778600931: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778600931: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778600931: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778600931: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778600931: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778600931: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778600931: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778600933: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778600933: 
+-------------------------------------------------------
+Recibido 8 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1778600933: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778601040: COMMAND <cp ./examen11 /tmp/.examen11>
+1778601040: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778601040: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778601040: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778601040: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778601040: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778601040: 
+La máquina está ya identificada.
+1778601040: RX: <OK Accepted>
+1778601040: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778601040: RX: <OK>
+1778601040: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778601040: TX: <UUID XH8zKQFQKcd3PRTk>
+1778601040: RX: <REGISTERED>
+1778601040: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778601040: COMMAND <cp ./client.? .trazas-11>
+1778601040: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778601040: COMMAND <which pftp 2>&1 > /dev/null>
+1778601040: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h50\n" | ftp 2>&1 > /dev/null>
+1778601040: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778601048: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778601048: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       15194  0.0  0.1   2664  1948 pts/3    S+   15:50   0:00 ./examen11
+root       15300  0.0  0.1   2556  1372 pts/7    S+   15:50   0:00 ./client 15194
+root       15315  0.0  0.1   2676  1732 pts/3    S+   15:50   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       15316  0.0  0.3   9388  3964 pts/3    R+   15:50   0:00 ps u
+1778601048: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778601048: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778601048: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778601048: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778601048: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778601048: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778601048: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778601048: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778601048: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778601048: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778601048: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778601048: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778601048: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778601048: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778601048: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778601050: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778601050: 
+-------------------------------------------------------
+Recibido 8 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1778601050: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778601050: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <1> es <319>.
+********************************************[0m
+1778601050: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778601050: 
+-------------------------------------------------------
+Enviando 2 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1778601053: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1778601056: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1778601059: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1778601062: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1778601063: 
+-------------------------------------------------------
+Enviando 6 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1778601067: 
+-------------------------------------------------------
+Enviando 2 bytes al FIFO /tmp/fifo_rd
+-------------------------------------------------------
+1778601151: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778601151: COMMAND <cp ./client.? .trazas-11>
+1778601151: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778601151: COMMAND <which pftp 2>&1 > /dev/null>
+1778601151: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h50\n" | ftp 2>&1 > /dev/null>
+1778601151: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778601153: COMMAND <cp ./examen11 /tmp/.examen11>
+1778601153: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778601153: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778601153: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778601153: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778601153: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778601153: 
+La máquina está ya identificada.
+1778601153: RX: <OK Accepted>
+1778601153: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778601153: RX: <OK>
+1778601153: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778601153: TX: <UUID XH8zKQFQKcd3PRTk>
+1778601153: RX: <REGISTERED>
+1778601153: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778601153: COMMAND <cp ./client.? .trazas-11>
+1778601153: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778601153: COMMAND <which pftp 2>&1 > /dev/null>
+1778601153: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-15h52\n" | ftp 2>&1 > /dev/null>
+1778601153: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778601163: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778601163: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       15632  0.0  0.1   2664  1908 pts/3    S+   15:52   0:00 ./examen11
+root       15726  0.0  0.1   2556  1496 pts/7    S+   15:52   0:00 ./client 15632
+root       15749  0.0  0.1   2676  1524 pts/3    S+   15:52   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       15750  0.0  0.3   9388  4032 pts/3    R+   15:52   0:00 ps u
+1778601163: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778601163: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778601163: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778601163: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778601163: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778601163: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778601163: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778601163: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778601163: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778601163: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778601163: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778601163: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778601163: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778601163: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778601163: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778601164: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778601164: 
+-------------------------------------------------------
+Recibido 8 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1778601164: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778601646: COMMAND <cp ./examen11 /tmp/.examen11>
+1778601646: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778601646: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778601646: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778601646: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778601646: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778601646: 
+La máquina está ya identificada.
+1778601646: RX: <OK Accepted>
+1778601646: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778601646: RX: <OK>
+1778601646: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778601646: TX: <UUID XH8zKQFQKcd3PRTk>
+1778601646: RX: <REGISTERED>
+1778601646: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778601646: COMMAND <cp ./client.? .trazas-11>
+1778601646: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778601646: COMMAND <which pftp 2>&1 > /dev/null>
+1778601646: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-16h00\n" | ftp 2>&1 > /dev/null>
+1778601646: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778601655: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778601655: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       16131  0.0  0.1   2664  2032 pts/3    S+   16:00   0:00 ./examen11
+root       16196  0.0  0.1   2556  1372 pts/7    S+   16:00   0:00 ./client 16131
+root       16231  0.0  0.1   2676  1520 pts/3    S+   16:00   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       16232  0.0  0.3   9388  3960 pts/3    R+   16:00   0:00 ps u
+1778601655: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778601655: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778601655: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778601655: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778601655: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778601655: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778601655: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778601655: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778601655: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778601655: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778601655: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778601655: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778601655: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778601655: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778601655: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778601656: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778601656: 
+-------------------------------------------------------
+Recibido 8 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1778601656: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778601720: COMMAND <cp ./examen11 /tmp/.examen11>
+1778601720: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778601720: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778601720: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778601720: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778601720: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778601720: 
+La máquina está ya identificada.
+1778601720: RX: <OK Accepted>
+1778601720: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778601720: RX: <OK>
+1778601720: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778601720: TX: <UUID XH8zKQFQKcd3PRTk>
+1778601721: RX: <REGISTERED>
+1778601721: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778601721: COMMAND <cp ./client.? .trazas-11>
+1778601721: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778601721: COMMAND <which pftp 2>&1 > /dev/null>
+1778601721: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-16h02\n" | ftp 2>&1 > /dev/null>
+1778601721: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778601727: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778601727: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7612  3348 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       16480  0.0  0.1   2664  2000 pts/3    S+   16:02   0:00 ./examen11
+root       16535  0.0  0.1   2556  1504 pts/7    S+   16:02   0:00 ./client 16480
+root       16555  0.0  0.1   2676  1576 pts/3    S+   16:02   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       16557  0.0  0.3   9388  4040 pts/3    R+   16:02   0:00 ps u
+1778601727: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778601727: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778601727: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778601727: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778601727: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778601727: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778601727: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778601727: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778601727: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778601727: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778601727: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778601727: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778601727: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778601727: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778601727: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778601729: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778601729: 
+-------------------------------------------------------
+Recibido 8 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1778601729: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778602590: COMMAND <cp ./examen11 /tmp/.examen11>
+1778602590: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778602590: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778602590: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778602590: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778602590: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778602590: 
+La máquina está ya identificada.
+1778602590: RX: <OK Accepted>
+1778602593: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778602593: RX: <OK>
+1778602593: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778602593: TX: <UUID XH8zKQFQKcd3PRTk>
+1778602593: RX: <REGISTERED>
+1778602593: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778602593: COMMAND <cp ./client.? .trazas-11>
+1778602593: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778602593: COMMAND <which pftp 2>&1 > /dev/null>
+1778602593: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-16h16\n" | ftp 2>&1 > /dev/null>
+1778602593: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778602708: COMMAND <cp ./examen11 /tmp/.examen11>
+1778602708: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778602708: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778602708: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778602708: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778602708: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778602708: 
+La máquina está ya identificada.
+1778602708: RX: <OK Accepted>
+1778602708: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778602708: RX: <OK>
+1778602708: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778602708: TX: <UUID XH8zKQFQKcd3PRTk>
+1778602708: RX: <REGISTERED>
+1778602708: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778602708: COMMAND <cp ./client.? .trazas-11>
+1778602708: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778602708: COMMAND <which pftp 2>&1 > /dev/null>
+1778602708: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-16h18\n" | ftp 2>&1 > /dev/null>
+1778602708: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778602721: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778602721: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7736  3744 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       17818  0.0  0.1   2664  1968 pts/3    S+   16:18   0:00 ./examen11
+root       17928  0.0  0.1   2556  1372 pts/7    S+   16:18   0:00 ./client 17818
+root       17948  0.0  0.1   2676  1588 pts/3    S+   16:18   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       17949  0.0  0.3   9388  3988 pts/3    R+   16:18   0:00 ps u
+1778602721: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778602721: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778602721: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778602721: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778602721: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778602721: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778602721: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778602721: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778602721: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778602721: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778602721: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778602721: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778602721: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778602721: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778602721: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778602723: 
+-------------------------------------------------------
+Abierto el dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778602723: 
+-------------------------------------------------------
+Recibido 8 bytes del FIFO /tmp/fifo_wr
+-------------------------------------------------------
+1778602723: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778602797: COMMAND <cp ./examen11 /tmp/.examen11>
+1778602797: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778602797: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778602797: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778602797: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778602797: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778602797: 
+La máquina está ya identificada.
+1778602797: RX: <OK Accepted>
+1778602797: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778602797: RX: <OK>
+1778602797: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778602797: TX: <UUID XH8zKQFQKcd3PRTk>
+1778602797: RX: <REGISTERED>
+1778602797: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778602797: COMMAND <cp ./client.? .trazas-11>
+1778602797: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778602797: COMMAND <which pftp 2>&1 > /dev/null>
+1778602797: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-16h19\n" | ftp 2>&1 > /dev/null>
+1778602797: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778602808: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778602808: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7736  3744 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       18307  0.0  0.1   2664  1968 pts/3    S+   16:19   0:00 ./examen11
+root       18410  0.0  0.1   2556  1372 pts/7    S+   16:20   0:00 ./client 18307
+root       18433  0.0  0.1   2676  1276 pts/3    S+   16:20   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       18434  0.0  0.3   9388  4032 pts/3    R+   16:20   0:00 ps u
+1778602808: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778602808: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778602808: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778602808: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778602808: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778602808: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778602808: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778602808: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778602808: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778602808: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778602808: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778602808: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778602808: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778602808: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778602808: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778602944: 
+-------------------------------------------------------
+Recibida conexión <127.0.0.1> en servidor TCP en el puerto <10000>
+-------------------------------------------------------
+1778602944: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778602944: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778602944: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <558>.
+********************************************[0m
+1778602944: 
+-------------------------------------------------------
+Enviando via TCP 2 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778602947: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778602950: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778602953: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778602956: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778602957: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778602961: 
+-------------------------------------------------------
+Enviando via TCP 2 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603097: INTENTO DE CONEXION DIA:12 MES:5 HORA:16:24m.
+1778603097: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778603097: COMMAND <cp ./client.? .trazas-11>
+1778603097: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778603097: COMMAND <which pftp 2>&1 > /dev/null>
+1778603097: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-16h24\n" | ftp 2>&1 > /dev/null>
+1778603098: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778603140: COMMAND <cp ./examen11 /tmp/.examen11>
+1778603140: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778603140: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778603140: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778603140: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778603140: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778603140: 
+La máquina está ya identificada.
+1778603140: RX: <OK Accepted>
+1778603140: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778603140: RX: <OK>
+1778603140: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778603140: TX: <UUID XH8zKQFQKcd3PRTk>
+1778603140: RX: <REGISTERED>
+1778603140: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778603140: COMMAND <cp ./client.? .trazas-11>
+1778603140: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778603140: COMMAND <which pftp 2>&1 > /dev/null>
+1778603140: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-16h25\n" | ftp 2>&1 > /dev/null>
+1778603141: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778603148: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778603148: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7736  3744 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       18906  0.0  0.1   2664  1724 pts/3    S+   16:25   0:00 ./examen11
+root       18992  0.0  0.1   2556  1352 pts/7    S+   16:25   0:00 ./client 18906
+root       19030  0.0  0.1   2676  1520 pts/3    S+   16:25   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       19031  0.0  0.3   9388  4004 pts/3    R+   16:25   0:00 ps u
+1778603148: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778603148: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778603148: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778603148: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778603148: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778603148: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778603148: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778603148: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778603148: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778603148: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778603148: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778603148: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778603148: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778603148: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778603148: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778603150: 
+-------------------------------------------------------
+Recibida conexión <127.0.0.1> en servidor TCP en el puerto <10000>
+-------------------------------------------------------
+1778603150: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603150: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778603150: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <558>.
+********************************************[0m
+1778603150: 
+-------------------------------------------------------
+Enviando via TCP 2 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603153: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603153: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603156: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603156: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603159: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603159: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603162: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603162: 
+-------------------------------------------------------
+REcibido via TCP 12 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603162: 
+-------------------------------------------------------
+Valor (244) de la clave 2 INCORRECTO.
+-------------------------------------------------------
+1778603163: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603163: 
+-------------------------------------------------------
+Enviando via TCP 2 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603163: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603163: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <956>.
+********************************************[0m
+1778603167: 
+-------------------------------------------------------
+Enviando via TCP 2 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603174: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778603174: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7736  3744 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       18906  0.0  0.1 109184  1956 pts/3    Sl+  16:25   0:00 ./examen11
+root       18992  0.0  0.1   2556  1352 pts/7    S+   16:25   0:00 ./client 18906
+root       19079  0.0  0.1   2556  1220 pts/7    S+   16:25   0:00 ./client 18906
+root       19212  0.0  0.1   2676  1584 pts/3    S+   16:26   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       19213  0.0  0.3   9388  3956 pts/3    R+   16:26   0:00 ps u
+1778603174: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778603174: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (1)
+-------------------------------------------------------
+1778603174: 
+[5m*************************************************
+Problemas en la inicialización del ejercicio 1.
+
+*************************************************[0m
+1778603174: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778603349: COMMAND <cp ./examen11 /tmp/.examen11>
+1778603349: COMMAND <cp -f /tmp/.examen11 ./examen11>
+1778603349: COMMAND <uname -a >> .trazas-11/alumno-25203218W>
+Linux CacharreoASI 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z) x86_64 GNU/Linux
+1778603349: COMMAND <ifconfig 2>&1 >> .trazas-11/alumno-25203218W>
+1778603349: COMMAND <echo -n 'MACHINE-ID: ' >> .trazas-11/alumno-25203218W>
+MACHINE-ID: 1778603349: COMMAND <cat /etc/machine-id >> .trazas-11/alumno-25203218W>
+53e39524c743431fb0ad9dc9aaa8901d
+1778603349: 
+La máquina está ya identificada.
+1778603349: RX: <OK Accepted>
+1778603349: TX: <CHECKPWD q9cTc6l6lddTBG>
+1778603349: RX: <OK>
+1778603349: 
+********************************************
+[5m      INICIANDO SESION (SERVER mode)[0m
+********************************************
+1778603349: TX: <UUID XH8zKQFQKcd3PRTk>
+1778603349: RX: <REGISTERED>
+1778603349: COMMAND <find . -type f -newer .signature -print 2>/dev/null | awk -v pwd="`pwd`/.trazas-11" '{ if(index($0,pwd) != 1) print }' > /tmp/.asitmp>
+1778603349: COMMAND <cp ./client.? .trazas-11>
+1778603349: COMMAND <tar zcf save_file-25203218W .trazas-11 > /dev/null>
+1778603349: COMMAND <which pftp 2>&1 > /dev/null>
+1778603349: COMMAND <echo -e "\nopen u017633.bi.ehu.es\nanonymous\ncd LAB2026/examen-11\nput save_file-25203218W 25203218W-12-5-16h29\n" | ftp 2>&1 > /dev/null>
+1778603349: COMMAND <test -f .trazas-11/.clean_bck.tz && rm .trazas-11/.clean_bck.tz>
+1778603358: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 1.
+
+*************************************************
+
+
+1778603358: COMMAND <ps u >> .trazas-11/alumno-25203218W>
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         104  0.0  0.1   7768  1768 pts/0    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear --keep-baud 115200,57600,38400,9600 - linux
+root         106  0.0  0.1   7768  1736 pts/1    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root         108  0.0  0.1   7768  1672 pts/2    Ss+  May11   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root       10377  0.0  0.3   7612  3692 pts/7    Ss   15:11   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       10542  0.0  0.3   7736  3744 pts/3    Ss   15:12   0:00 /bin/bash --init-file /root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root       12014  0.0  0.0   2556   588 pts/7    S    15:33   0:00 ./client 10617
+root       12181  0.0  0.0   2556   600 pts/7    S    15:34   0:00 ./client 10617
+root       12602  0.0  0.0   2556   608 pts/7    S    15:35   0:00 ./client 12387
+root       14245  0.0  0.0   2556   624 pts/7    S    15:44   0:00 ./client 13904
+root       14297  0.0  0.0   2556   580 pts/7    S    15:44   0:00 ./client 13904
+root       19302  0.0  0.1   2664  1896 pts/3    S+   16:29   0:00 ./examen11
+root       19396  0.0  0.1   2556  1360 pts/7    S+   16:29   0:00 ./client 19302
+root       19416  0.0  0.1   2676  1592 pts/3    S+   16:29   0:00 sh -c -- ps u >> .trazas-11/alumno-25203218W
+root       19417  0.0  0.3   9388  4020 pts/3    R+   16:29   0:00 ps u
+1778603358: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778603358: COMMAND <ipcrm -M 0x25203218 >> .trazas-11/alumno-25203218W>
+1778603358: 
+-------------------------------------------------------
+Borrando la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778603358: COMMAND <rm /tmp/fifo_rd >> .trazas-11/alumno-25203218W>
+1778603358: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_rd>
+-------------------------------------------------------
+1778603358: COMMAND <rm /tmp/fifo_wr >> .trazas-11/alumno-25203218W>
+1778603358: 
+-------------------------------------------------------
+Borrando dispositivo FIFO </tmp/fifo_wr>
+-------------------------------------------------------
+1778603358: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_rd.
+-------------------------------------------------------
+1778603358: 
+-------------------------------------------------------
+Creando una cola FIFO: /tmp/fifo_wr.
+-------------------------------------------------------
+1778603358: 
+-------------------------------------------------------
+Creada la memoria compartida <0x25203218L>
+-------------------------------------------------------
+1778603358: 
+-------------------------------------------------------
+Inicializando contadores de mensajes de KEEP ALIVE
+-------------------------------------------------------
+1778603358: 
+-------------------------------------------------------
+Activado servidor TCP en puerto 10000.
+-------------------------------------------------------
+1778603358: 
+-------------------------------------------------------
+Activando un servidor UDP en el puerto <10000>
+-------------------------------------------------------
+1778603358: 
+*************************************************
+:ok> CONTEXTO del ejercicio 1 preparado.
+*************************************************
+1778603358: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
+1778603360: 
+-------------------------------------------------------
+Recibida conexión <127.0.0.1> en servidor TCP en el puerto <10000>
+-------------------------------------------------------
+1778603360: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603360: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778603360: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <4> es <558>.
+********************************************[0m
+1778603360: 
+-------------------------------------------------------
+Enviando via TCP 2 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603363: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603363: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603366: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603366: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603369: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603369: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603372: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603372: 
+-------------------------------------------------------
+REcibido via TCP 12 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603372: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <5> es <755>.
+********************************************[0m
+1778603372: 
+-------------------------------------------------------
+Enviando via TCP 2 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603373: 
+-------------------------------------------------------
+Enviando via TCP 6 bytes al cliente 127.0.0.1
+-------------------------------------------------------
+1778603373: 
+-------------------------------------------------------
+REcibido via TCP 8 bytes del cliente 127.0.0.1
+-------------------------------------------------------
+1778603373: 
+[5m********************************************
+:OK> RESPUESTA ADECUADA. El secreto <6> es <956>.
+********************************************[0m
+1778603376: 
+
+
+*************************************************
+
+          EJECUTANDO EL EJERCICIO 2.
+
+*************************************************
+
+
+1778603376: COMMAND <ps -C client -o stat=,pid= | grep -v [Zz] |awk '{print $2}' > .trazas-11/.n_cliente>
+1778603376: 
+-------------------------------------------------------
+Número de procesos cliente (2) inadecuado. Debe ser (4)
+-------------------------------------------------------
+1778603376: 
+*************************************************
+:ok> CONTEXTO del ejercicio 2 preparado.
+*************************************************
+1778603376: COMMAND <who >> .trazas-11/alumno-25203218W>
+root     sshd pts/7   2026-05-12 15:11 (192.168.1.75)
